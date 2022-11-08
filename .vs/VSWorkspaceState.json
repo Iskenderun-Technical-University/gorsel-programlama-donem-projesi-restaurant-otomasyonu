@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RestoranOtomasyonu",
+    "\\RestoranOtomasyonu\\RestoranOtomasyonu"
   ],
-  "SelectedNode": "\\C:\\Users\\ozlem\\Desktop\\GörselProje",
+  "SelectedNode": "\\RestoranOtomasyonu\\RestoranOtomasyonu\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
