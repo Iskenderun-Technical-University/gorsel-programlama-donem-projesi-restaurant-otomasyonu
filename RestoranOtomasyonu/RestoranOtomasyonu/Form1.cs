@@ -19,7 +19,8 @@ namespace RestoranOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "deli özlem";       
+            label1.Text = "deneme baþarýlý";
+            label2.Text = "problemler çözüldü";
         }
     }
 }
