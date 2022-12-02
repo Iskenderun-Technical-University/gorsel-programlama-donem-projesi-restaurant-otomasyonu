@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -60,8 +62,6 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,6 +106,25 @@
             this.panel1.Size = new System.Drawing.Size(588, 735);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(419, 694);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(141, 29);
+            this.button2.TabIndex = 33;
+            this.button2.Text = "sonraki";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(232, 694);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 29);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "önceki";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -446,24 +465,6 @@
             this.label1.Size = new System.Drawing.Size(169, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "S T A R T E R S";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(232, 694);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 29);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "önceki";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(419, 694);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 29);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "sonraki";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

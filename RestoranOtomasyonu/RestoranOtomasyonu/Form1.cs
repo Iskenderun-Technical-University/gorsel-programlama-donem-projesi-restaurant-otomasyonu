@@ -31,16 +31,15 @@ namespace RestoranOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(comboBox1.SelectedIndex == 0)
-            {
-                kullicibilgileri kullicibilgileri = new kullicibilgileri();
-                kullicibilgileri.Show();
-                
-
-            }
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

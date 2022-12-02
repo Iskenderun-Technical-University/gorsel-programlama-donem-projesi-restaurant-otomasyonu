@@ -19,6 +19,9 @@ namespace RestoranOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form1 form1sec = new Form1();
+            form1sec.Show();
+            this.Hide();
 
         }
     }
