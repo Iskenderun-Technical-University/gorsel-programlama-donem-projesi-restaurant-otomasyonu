@@ -43,5 +43,12 @@ namespace RestoranOtomasyonu
         {
 
         }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();  //form 2 göster
+            this.Hide();//form1 gizle
+        }
     }
 }
