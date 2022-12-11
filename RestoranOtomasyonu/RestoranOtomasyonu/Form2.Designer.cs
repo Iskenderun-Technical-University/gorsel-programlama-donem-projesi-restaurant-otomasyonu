@@ -55,7 +55,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(187, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(401, 45);
+            this.label1.Size = new System.Drawing.Size(387, 44);
             this.label1.TabIndex = 1;
             this.label1.Text = "T R O U V A I L L E";
             // 
@@ -102,6 +102,6 @@
         private Button button1;
         private Label label1;
         private Label label2;
-        private Label label3;
+        internal Label label3;
     }
 }
