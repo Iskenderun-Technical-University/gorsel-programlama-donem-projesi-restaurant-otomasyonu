@@ -104,9 +104,6 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -115,9 +112,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.label30);
-            this.panel1.Controls.Add(this.label31);
-            this.panel1.Controls.Add(this.label32);
             this.panel1.Controls.Add(this.label33);
             this.panel1.Controls.Add(this.label34);
             this.panel1.Controls.Add(this.label21);
@@ -944,37 +938,10 @@
             this.label29.TabIndex = 81;
             this.label29.Text = "$";
             // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(286, 358);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(17, 20);
-            this.label30.TabIndex = 90;
-            this.label30.Text = "$";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(286, 386);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(17, 20);
-            this.label31.TabIndex = 89;
-            this.label31.Text = "$";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(286, 418);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(17, 20);
-            this.label32.TabIndex = 88;
-            this.label32.Text = "$";
-            // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(286, 326);
+            this.label33.Location = new System.Drawing.Point(528, 633);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(17, 20);
             this.label33.TabIndex = 87;
@@ -983,7 +950,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(286, 296);
+            this.label34.Location = new System.Drawing.Point(528, 603);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(17, 20);
             this.label34.TabIndex = 86;
@@ -1083,9 +1050,6 @@
         private Label label25;
         private Label label24;
         private Label label11;
-        private Label label30;
-        private Label label31;
-        private Label label32;
         private Label label33;
         private Label label34;
     }

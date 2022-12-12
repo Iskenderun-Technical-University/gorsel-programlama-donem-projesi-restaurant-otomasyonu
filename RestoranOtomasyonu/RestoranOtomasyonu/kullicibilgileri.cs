@@ -16,5 +16,10 @@ namespace RestoranOtomasyonu
         {
             InitializeComponent();
         }
+
+        private void kullicibilgileri_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
