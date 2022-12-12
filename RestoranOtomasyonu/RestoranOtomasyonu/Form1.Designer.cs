@@ -29,6 +29,28 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.TeaLabel = new System.Windows.Forms.Label();
+            this.CoffeeLabel = new System.Windows.Forms.Label();
+            this.JuiceLabel = new System.Windows.Forms.Label();
+            this.LemonadeLabel = new System.Windows.Forms.Label();
+            this.ShrimpLabel = new System.Windows.Forms.Label();
+            this.SteakAndPotatoesLabel = new System.Windows.Forms.Label();
+            this.LambLabel = new System.Windows.Forms.Label();
+            this.GrilledChickenLabel = new System.Windows.Forms.Label();
+            this.SalmonLabel = new System.Windows.Forms.Label();
+            this.RisottoLabel = new System.Windows.Forms.Label();
+            this.CaramelCakeLabel = new System.Windows.Forms.Label();
+            this.DatePuddingLabel = new System.Windows.Forms.Label();
+            this.ChocolateCakeLabel = new System.Windows.Forms.Label();
+            this.BrownieAlaModeLabel = new System.Windows.Forms.Label();
+            this.HaystackLabel = new System.Windows.Forms.Label();
+            this.CalamariLabel = new System.Windows.Forms.Label();
+            this.ChickenPopcornLabel = new System.Windows.Forms.Label();
+            this.JalepenoLabel = new System.Windows.Forms.Label();
+            this.CalmCnowderLabel = new System.Windows.Forms.Label();
+            this.MinestroneLabel = new System.Windows.Forms.Label();
+            this.capreseSaladLabel = new System.Windows.Forms.Label();
+            this.mozarellaLabel = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -62,34 +84,62 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.mozarellaLabel = new System.Windows.Forms.Label();
-            this.capreseSaladLabel = new System.Windows.Forms.Label();
-            this.CalmCnowderLabel = new System.Windows.Forms.Label();
-            this.MinestroneLabel = new System.Windows.Forms.Label();
-            this.ChickenPopcornLabel = new System.Windows.Forms.Label();
-            this.JalepenoLabel = new System.Windows.Forms.Label();
-            this.HaystackLabel = new System.Windows.Forms.Label();
-            this.CalamariLabel = new System.Windows.Forms.Label();
-            this.ChocolateCakeLabel = new System.Windows.Forms.Label();
-            this.BrownieAlaModeLabel = new System.Windows.Forms.Label();
-            this.CaramelCakeLabel = new System.Windows.Forms.Label();
-            this.DatePuddingLabel = new System.Windows.Forms.Label();
-            this.SalmonLabel = new System.Windows.Forms.Label();
-            this.RisottoLabel = new System.Windows.Forms.Label();
-            this.LambLabel = new System.Windows.Forms.Label();
-            this.GrilledChickenLabel = new System.Windows.Forms.Label();
-            this.ShrimpLabel = new System.Windows.Forms.Label();
-            this.SteakAndPotatoesLabel = new System.Windows.Forms.Label();
-            this.TeaLabel = new System.Windows.Forms.Label();
-            this.CoffeeLabel = new System.Windows.Forms.Label();
-            this.JuiceLabel = new System.Windows.Forms.Label();
-            this.LemonadeLabel = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label30);
+            this.panel1.Controls.Add(this.label31);
+            this.panel1.Controls.Add(this.label32);
+            this.panel1.Controls.Add(this.label33);
+            this.panel1.Controls.Add(this.label34);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.label22);
+            this.panel1.Controls.Add(this.label23);
+            this.panel1.Controls.Add(this.label28);
+            this.panel1.Controls.Add(this.label29);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.label20);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.label27);
+            this.panel1.Controls.Add(this.label26);
+            this.panel1.Controls.Add(this.label25);
+            this.panel1.Controls.Add(this.label24);
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.TeaLabel);
             this.panel1.Controls.Add(this.CoffeeLabel);
             this.panel1.Controls.Add(this.JuiceLabel);
@@ -150,6 +200,204 @@
             this.panel1.Size = new System.Drawing.Size(588, 735);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // TeaLabel
+            // 
+            this.TeaLabel.AutoSize = true;
+            this.TeaLabel.Location = new System.Drawing.Point(507, 633);
+            this.TeaLabel.Name = "TeaLabel";
+            this.TeaLabel.Size = new System.Drawing.Size(17, 20);
+            this.TeaLabel.TabIndex = 54;
+            this.TeaLabel.Text = "5";
+            // 
+            // CoffeeLabel
+            // 
+            this.CoffeeLabel.AutoSize = true;
+            this.CoffeeLabel.Location = new System.Drawing.Point(507, 603);
+            this.CoffeeLabel.Name = "CoffeeLabel";
+            this.CoffeeLabel.Size = new System.Drawing.Size(17, 20);
+            this.CoffeeLabel.TabIndex = 53;
+            this.CoffeeLabel.Text = "8";
+            // 
+            // JuiceLabel
+            // 
+            this.JuiceLabel.AutoSize = true;
+            this.JuiceLabel.Location = new System.Drawing.Point(507, 573);
+            this.JuiceLabel.Name = "JuiceLabel";
+            this.JuiceLabel.Size = new System.Drawing.Size(17, 20);
+            this.JuiceLabel.TabIndex = 52;
+            this.JuiceLabel.Text = "6";
+            // 
+            // LemonadeLabel
+            // 
+            this.LemonadeLabel.AutoSize = true;
+            this.LemonadeLabel.Location = new System.Drawing.Point(507, 543);
+            this.LemonadeLabel.Name = "LemonadeLabel";
+            this.LemonadeLabel.Size = new System.Drawing.Size(17, 20);
+            this.LemonadeLabel.TabIndex = 51;
+            this.LemonadeLabel.Text = "6";
+            // 
+            // ShrimpLabel
+            // 
+            this.ShrimpLabel.AutoSize = true;
+            this.ShrimpLabel.Location = new System.Drawing.Point(176, 409);
+            this.ShrimpLabel.Name = "ShrimpLabel";
+            this.ShrimpLabel.Size = new System.Drawing.Size(25, 20);
+            this.ShrimpLabel.TabIndex = 50;
+            this.ShrimpLabel.Text = "20";
+            // 
+            // SteakAndPotatoesLabel
+            // 
+            this.SteakAndPotatoesLabel.AutoSize = true;
+            this.SteakAndPotatoesLabel.Location = new System.Drawing.Point(507, 439);
+            this.SteakAndPotatoesLabel.Name = "SteakAndPotatoesLabel";
+            this.SteakAndPotatoesLabel.Size = new System.Drawing.Size(25, 20);
+            this.SteakAndPotatoesLabel.TabIndex = 49;
+            this.SteakAndPotatoesLabel.Text = "38";
+            // 
+            // LambLabel
+            // 
+            this.LambLabel.AutoSize = true;
+            this.LambLabel.Location = new System.Drawing.Point(507, 407);
+            this.LambLabel.Name = "LambLabel";
+            this.LambLabel.Size = new System.Drawing.Size(25, 20);
+            this.LambLabel.TabIndex = 48;
+            this.LambLabel.Text = "35";
+            // 
+            // GrilledChickenLabel
+            // 
+            this.GrilledChickenLabel.AutoSize = true;
+            this.GrilledChickenLabel.Location = new System.Drawing.Point(507, 377);
+            this.GrilledChickenLabel.Name = "GrilledChickenLabel";
+            this.GrilledChickenLabel.Size = new System.Drawing.Size(25, 20);
+            this.GrilledChickenLabel.TabIndex = 47;
+            this.GrilledChickenLabel.Text = "25";
+            // 
+            // SalmonLabel
+            // 
+            this.SalmonLabel.AutoSize = true;
+            this.SalmonLabel.Location = new System.Drawing.Point(507, 349);
+            this.SalmonLabel.Name = "SalmonLabel";
+            this.SalmonLabel.Size = new System.Drawing.Size(25, 20);
+            this.SalmonLabel.TabIndex = 46;
+            this.SalmonLabel.Text = "35";
+            // 
+            // RisottoLabel
+            // 
+            this.RisottoLabel.AutoSize = true;
+            this.RisottoLabel.Location = new System.Drawing.Point(507, 319);
+            this.RisottoLabel.Name = "RisottoLabel";
+            this.RisottoLabel.Size = new System.Drawing.Size(25, 20);
+            this.RisottoLabel.TabIndex = 45;
+            this.RisottoLabel.Text = "30";
+            // 
+            // CaramelCakeLabel
+            // 
+            this.CaramelCakeLabel.AutoSize = true;
+            this.CaramelCakeLabel.Location = new System.Drawing.Point(176, 633);
+            this.CaramelCakeLabel.Name = "CaramelCakeLabel";
+            this.CaramelCakeLabel.Size = new System.Drawing.Size(25, 20);
+            this.CaramelCakeLabel.TabIndex = 44;
+            this.CaramelCakeLabel.Text = "13";
+            // 
+            // DatePuddingLabel
+            // 
+            this.DatePuddingLabel.AutoSize = true;
+            this.DatePuddingLabel.Location = new System.Drawing.Point(176, 603);
+            this.DatePuddingLabel.Name = "DatePuddingLabel";
+            this.DatePuddingLabel.Size = new System.Drawing.Size(17, 20);
+            this.DatePuddingLabel.TabIndex = 43;
+            this.DatePuddingLabel.Text = "8";
+            // 
+            // ChocolateCakeLabel
+            // 
+            this.ChocolateCakeLabel.AutoSize = true;
+            this.ChocolateCakeLabel.Location = new System.Drawing.Point(176, 573);
+            this.ChocolateCakeLabel.Name = "ChocolateCakeLabel";
+            this.ChocolateCakeLabel.Size = new System.Drawing.Size(25, 20);
+            this.ChocolateCakeLabel.TabIndex = 42;
+            this.ChocolateCakeLabel.Text = "12";
+            // 
+            // BrownieAlaModeLabel
+            // 
+            this.BrownieAlaModeLabel.AutoSize = true;
+            this.BrownieAlaModeLabel.Location = new System.Drawing.Point(176, 543);
+            this.BrownieAlaModeLabel.Name = "BrownieAlaModeLabel";
+            this.BrownieAlaModeLabel.Size = new System.Drawing.Size(25, 20);
+            this.BrownieAlaModeLabel.TabIndex = 41;
+            this.BrownieAlaModeLabel.Text = "10";
+            // 
+            // HaystackLabel
+            // 
+            this.HaystackLabel.AutoSize = true;
+            this.HaystackLabel.Location = new System.Drawing.Point(176, 377);
+            this.HaystackLabel.Name = "HaystackLabel";
+            this.HaystackLabel.Size = new System.Drawing.Size(25, 20);
+            this.HaystackLabel.TabIndex = 40;
+            this.HaystackLabel.Text = "15";
+            // 
+            // CalamariLabel
+            // 
+            this.CalamariLabel.AutoSize = true;
+            this.CalamariLabel.Location = new System.Drawing.Point(176, 347);
+            this.CalamariLabel.Name = "CalamariLabel";
+            this.CalamariLabel.Size = new System.Drawing.Size(25, 20);
+            this.CalamariLabel.TabIndex = 39;
+            this.CalamariLabel.Text = "25";
+            // 
+            // ChickenPopcornLabel
+            // 
+            this.ChickenPopcornLabel.AutoSize = true;
+            this.ChickenPopcornLabel.Location = new System.Drawing.Point(176, 317);
+            this.ChickenPopcornLabel.Name = "ChickenPopcornLabel";
+            this.ChickenPopcornLabel.Size = new System.Drawing.Size(25, 20);
+            this.ChickenPopcornLabel.TabIndex = 38;
+            this.ChickenPopcornLabel.Text = "15";
+            // 
+            // JalepenoLabel
+            // 
+            this.JalepenoLabel.AutoSize = true;
+            this.JalepenoLabel.Location = new System.Drawing.Point(176, 179);
+            this.JalepenoLabel.Name = "JalepenoLabel";
+            this.JalepenoLabel.Size = new System.Drawing.Size(25, 20);
+            this.JalepenoLabel.TabIndex = 37;
+            this.JalepenoLabel.Text = "19";
+            // 
+            // CalmCnowderLabel
+            // 
+            this.CalmCnowderLabel.AutoSize = true;
+            this.CalmCnowderLabel.Location = new System.Drawing.Point(176, 149);
+            this.CalmCnowderLabel.Name = "CalmCnowderLabel";
+            this.CalmCnowderLabel.Size = new System.Drawing.Size(25, 20);
+            this.CalmCnowderLabel.TabIndex = 36;
+            this.CalmCnowderLabel.Text = "13";
+            // 
+            // MinestroneLabel
+            // 
+            this.MinestroneLabel.AutoSize = true;
+            this.MinestroneLabel.Location = new System.Drawing.Point(176, 119);
+            this.MinestroneLabel.Name = "MinestroneLabel";
+            this.MinestroneLabel.Size = new System.Drawing.Size(25, 20);
+            this.MinestroneLabel.TabIndex = 35;
+            this.MinestroneLabel.Text = "15";
+            // 
+            // capreseSaladLabel
+            // 
+            this.capreseSaladLabel.AutoSize = true;
+            this.capreseSaladLabel.Location = new System.Drawing.Point(176, 89);
+            this.capreseSaladLabel.Name = "capreseSaladLabel";
+            this.capreseSaladLabel.Size = new System.Drawing.Size(25, 20);
+            this.capreseSaladLabel.TabIndex = 34;
+            this.capreseSaladLabel.Text = "10";
+            // 
+            // mozarellaLabel
+            // 
+            this.mozarellaLabel.AutoSize = true;
+            this.mozarellaLabel.Location = new System.Drawing.Point(176, 59);
+            this.mozarellaLabel.Name = "mozarellaLabel";
+            this.mozarellaLabel.Size = new System.Drawing.Size(25, 20);
+            this.mozarellaLabel.TabIndex = 1;
+            this.mozarellaLabel.Text = "15";
             // 
             // button2
             // 
@@ -516,203 +764,230 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "S T A R T E R S";
             // 
-            // mozarellaLabel
+            // label11
             // 
-            this.mozarellaLabel.AutoSize = true;
-            this.mozarellaLabel.Location = new System.Drawing.Point(176, 59);
-            this.mozarellaLabel.Name = "mozarellaLabel";
-            this.mozarellaLabel.Size = new System.Drawing.Size(25, 20);
-            this.mozarellaLabel.TabIndex = 1;
-            this.mozarellaLabel.Text = "15";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(196, 59);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(17, 20);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "$";
             // 
-            // capreseSaladLabel
+            // label24
             // 
-            this.capreseSaladLabel.AutoSize = true;
-            this.capreseSaladLabel.Location = new System.Drawing.Point(176, 89);
-            this.capreseSaladLabel.Name = "capreseSaladLabel";
-            this.capreseSaladLabel.Size = new System.Drawing.Size(25, 20);
-            this.capreseSaladLabel.TabIndex = 34;
-            this.capreseSaladLabel.Text = "10";
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(196, 89);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(17, 20);
+            this.label24.TabIndex = 67;
+            this.label24.Text = "$";
             // 
-            // CalmCnowderLabel
+            // label25
             // 
-            this.CalmCnowderLabel.AutoSize = true;
-            this.CalmCnowderLabel.Location = new System.Drawing.Point(176, 149);
-            this.CalmCnowderLabel.Name = "CalmCnowderLabel";
-            this.CalmCnowderLabel.Size = new System.Drawing.Size(25, 20);
-            this.CalmCnowderLabel.TabIndex = 36;
-            this.CalmCnowderLabel.Text = "13";
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(196, 181);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(17, 20);
+            this.label25.TabIndex = 68;
+            this.label25.Text = "$";
             // 
-            // MinestroneLabel
+            // label26
             // 
-            this.MinestroneLabel.AutoSize = true;
-            this.MinestroneLabel.Location = new System.Drawing.Point(176, 119);
-            this.MinestroneLabel.Name = "MinestroneLabel";
-            this.MinestroneLabel.Size = new System.Drawing.Size(25, 20);
-            this.MinestroneLabel.TabIndex = 35;
-            this.MinestroneLabel.Text = "15";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(196, 149);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(17, 20);
+            this.label26.TabIndex = 69;
+            this.label26.Text = "$";
             // 
-            // ChickenPopcornLabel
+            // label27
             // 
-            this.ChickenPopcornLabel.AutoSize = true;
-            this.ChickenPopcornLabel.Location = new System.Drawing.Point(176, 317);
-            this.ChickenPopcornLabel.Name = "ChickenPopcornLabel";
-            this.ChickenPopcornLabel.Size = new System.Drawing.Size(25, 20);
-            this.ChickenPopcornLabel.TabIndex = 38;
-            this.ChickenPopcornLabel.Text = "15";
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(196, 121);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(17, 20);
+            this.label27.TabIndex = 70;
+            this.label27.Text = "$";
             // 
-            // JalepenoLabel
+            // label10
             // 
-            this.JalepenoLabel.AutoSize = true;
-            this.JalepenoLabel.Location = new System.Drawing.Point(176, 179);
-            this.JalepenoLabel.Name = "JalepenoLabel";
-            this.JalepenoLabel.Size = new System.Drawing.Size(25, 20);
-            this.JalepenoLabel.TabIndex = 37;
-            this.JalepenoLabel.Text = "19";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(196, 381);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(17, 20);
+            this.label10.TabIndex = 75;
+            this.label10.Text = "$";
             // 
-            // HaystackLabel
+            // label12
             // 
-            this.HaystackLabel.AutoSize = true;
-            this.HaystackLabel.Location = new System.Drawing.Point(176, 377);
-            this.HaystackLabel.Name = "HaystackLabel";
-            this.HaystackLabel.Size = new System.Drawing.Size(25, 20);
-            this.HaystackLabel.TabIndex = 40;
-            this.HaystackLabel.Text = "15";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(196, 409);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(17, 20);
+            this.label12.TabIndex = 74;
+            this.label12.Text = "$";
             // 
-            // CalamariLabel
+            // label13
             // 
-            this.CalamariLabel.AutoSize = true;
-            this.CalamariLabel.Location = new System.Drawing.Point(176, 347);
-            this.CalamariLabel.Name = "CalamariLabel";
-            this.CalamariLabel.Size = new System.Drawing.Size(25, 20);
-            this.CalamariLabel.TabIndex = 39;
-            this.CalamariLabel.Text = "25";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(196, 543);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(17, 20);
+            this.label13.TabIndex = 73;
+            this.label13.Text = "$";
             // 
-            // ChocolateCakeLabel
+            // label14
             // 
-            this.ChocolateCakeLabel.AutoSize = true;
-            this.ChocolateCakeLabel.Location = new System.Drawing.Point(176, 573);
-            this.ChocolateCakeLabel.Name = "ChocolateCakeLabel";
-            this.ChocolateCakeLabel.Size = new System.Drawing.Size(25, 20);
-            this.ChocolateCakeLabel.TabIndex = 42;
-            this.ChocolateCakeLabel.Text = "12";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(196, 349);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(17, 20);
+            this.label14.TabIndex = 72;
+            this.label14.Text = "$";
             // 
-            // BrownieAlaModeLabel
+            // label15
             // 
-            this.BrownieAlaModeLabel.AutoSize = true;
-            this.BrownieAlaModeLabel.Location = new System.Drawing.Point(176, 543);
-            this.BrownieAlaModeLabel.Name = "BrownieAlaModeLabel";
-            this.BrownieAlaModeLabel.Size = new System.Drawing.Size(25, 20);
-            this.BrownieAlaModeLabel.TabIndex = 41;
-            this.BrownieAlaModeLabel.Text = "10";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(196, 319);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(17, 20);
+            this.label15.TabIndex = 71;
+            this.label15.Text = "$";
             // 
-            // CaramelCakeLabel
+            // label16
             // 
-            this.CaramelCakeLabel.AutoSize = true;
-            this.CaramelCakeLabel.Location = new System.Drawing.Point(176, 633);
-            this.CaramelCakeLabel.Name = "CaramelCakeLabel";
-            this.CaramelCakeLabel.Size = new System.Drawing.Size(25, 20);
-            this.CaramelCakeLabel.TabIndex = 44;
-            this.CaramelCakeLabel.Text = "13";
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(196, 635);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(17, 20);
+            this.label16.TabIndex = 80;
+            this.label16.Text = "$";
             // 
-            // DatePuddingLabel
+            // label17
             // 
-            this.DatePuddingLabel.AutoSize = true;
-            this.DatePuddingLabel.Location = new System.Drawing.Point(176, 603);
-            this.DatePuddingLabel.Name = "DatePuddingLabel";
-            this.DatePuddingLabel.Size = new System.Drawing.Size(17, 20);
-            this.DatePuddingLabel.TabIndex = 43;
-            this.DatePuddingLabel.Text = "8";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(528, 319);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(17, 20);
+            this.label17.TabIndex = 79;
+            this.label17.Text = "$";
             // 
-            // SalmonLabel
+            // label18
             // 
-            this.SalmonLabel.AutoSize = true;
-            this.SalmonLabel.Location = new System.Drawing.Point(507, 349);
-            this.SalmonLabel.Name = "SalmonLabel";
-            this.SalmonLabel.Size = new System.Drawing.Size(25, 20);
-            this.SalmonLabel.TabIndex = 46;
-            this.SalmonLabel.Text = "35";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(528, 351);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(17, 20);
+            this.label18.TabIndex = 78;
+            this.label18.Text = "$";
             // 
-            // RisottoLabel
+            // label19
             // 
-            this.RisottoLabel.AutoSize = true;
-            this.RisottoLabel.Location = new System.Drawing.Point(507, 319);
-            this.RisottoLabel.Name = "RisottoLabel";
-            this.RisottoLabel.Size = new System.Drawing.Size(25, 20);
-            this.RisottoLabel.TabIndex = 45;
-            this.RisottoLabel.Text = "30";
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(196, 603);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(17, 20);
+            this.label19.TabIndex = 77;
+            this.label19.Text = "$";
             // 
-            // LambLabel
+            // label20
             // 
-            this.LambLabel.AutoSize = true;
-            this.LambLabel.Location = new System.Drawing.Point(507, 407);
-            this.LambLabel.Name = "LambLabel";
-            this.LambLabel.Size = new System.Drawing.Size(25, 20);
-            this.LambLabel.TabIndex = 48;
-            this.LambLabel.Text = "35";
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(196, 573);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(17, 20);
+            this.label20.TabIndex = 76;
+            this.label20.Text = "$";
             // 
-            // GrilledChickenLabel
+            // label21
             // 
-            this.GrilledChickenLabel.AutoSize = true;
-            this.GrilledChickenLabel.Location = new System.Drawing.Point(507, 377);
-            this.GrilledChickenLabel.Name = "GrilledChickenLabel";
-            this.GrilledChickenLabel.Size = new System.Drawing.Size(25, 20);
-            this.GrilledChickenLabel.TabIndex = 47;
-            this.GrilledChickenLabel.Text = "25";
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(528, 378);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(17, 20);
+            this.label21.TabIndex = 85;
+            this.label21.Text = "$";
             // 
-            // ShrimpLabel
+            // label22
             // 
-            this.ShrimpLabel.AutoSize = true;
-            this.ShrimpLabel.Location = new System.Drawing.Point(176, 409);
-            this.ShrimpLabel.Name = "ShrimpLabel";
-            this.ShrimpLabel.Size = new System.Drawing.Size(25, 20);
-            this.ShrimpLabel.TabIndex = 50;
-            this.ShrimpLabel.Text = "20";
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(528, 406);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(17, 20);
+            this.label22.TabIndex = 84;
+            this.label22.Text = "$";
             // 
-            // SteakAndPotatoesLabel
+            // label23
             // 
-            this.SteakAndPotatoesLabel.AutoSize = true;
-            this.SteakAndPotatoesLabel.Location = new System.Drawing.Point(507, 439);
-            this.SteakAndPotatoesLabel.Name = "SteakAndPotatoesLabel";
-            this.SteakAndPotatoesLabel.Size = new System.Drawing.Size(25, 20);
-            this.SteakAndPotatoesLabel.TabIndex = 49;
-            this.SteakAndPotatoesLabel.Text = "38";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(528, 438);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(17, 20);
+            this.label23.TabIndex = 83;
+            this.label23.Text = "$";
             // 
-            // TeaLabel
+            // label28
             // 
-            this.TeaLabel.AutoSize = true;
-            this.TeaLabel.Location = new System.Drawing.Point(507, 633);
-            this.TeaLabel.Name = "TeaLabel";
-            this.TeaLabel.Size = new System.Drawing.Size(17, 20);
-            this.TeaLabel.TabIndex = 54;
-            this.TeaLabel.Text = "5";
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(528, 573);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(17, 20);
+            this.label28.TabIndex = 82;
+            this.label28.Text = "$";
             // 
-            // CoffeeLabel
+            // label29
             // 
-            this.CoffeeLabel.AutoSize = true;
-            this.CoffeeLabel.Location = new System.Drawing.Point(507, 603);
-            this.CoffeeLabel.Name = "CoffeeLabel";
-            this.CoffeeLabel.Size = new System.Drawing.Size(17, 20);
-            this.CoffeeLabel.TabIndex = 53;
-            this.CoffeeLabel.Text = "8";
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(528, 543);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(17, 20);
+            this.label29.TabIndex = 81;
+            this.label29.Text = "$";
             // 
-            // JuiceLabel
+            // label30
             // 
-            this.JuiceLabel.AutoSize = true;
-            this.JuiceLabel.Location = new System.Drawing.Point(507, 573);
-            this.JuiceLabel.Name = "JuiceLabel";
-            this.JuiceLabel.Size = new System.Drawing.Size(17, 20);
-            this.JuiceLabel.TabIndex = 52;
-            this.JuiceLabel.Text = "6";
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(286, 358);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(17, 20);
+            this.label30.TabIndex = 90;
+            this.label30.Text = "$";
             // 
-            // LemonadeLabel
+            // label31
             // 
-            this.LemonadeLabel.AutoSize = true;
-            this.LemonadeLabel.Location = new System.Drawing.Point(507, 543);
-            this.LemonadeLabel.Name = "LemonadeLabel";
-            this.LemonadeLabel.Size = new System.Drawing.Size(17, 20);
-            this.LemonadeLabel.TabIndex = 51;
-            this.LemonadeLabel.Text = "6";
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(286, 386);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(17, 20);
+            this.label31.TabIndex = 89;
+            this.label31.Text = "$";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(286, 418);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(17, 20);
+            this.label32.TabIndex = 88;
+            this.label32.Text = "$";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(286, 326);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(17, 20);
+            this.label33.TabIndex = 87;
+            this.label33.Text = "$";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(286, 296);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(17, 20);
+            this.label34.TabIndex = 86;
+            this.label34.Text = "$";
             // 
             // Form1
             // 
@@ -788,5 +1063,30 @@
         private Label CoffeeLabel;
         private Label JuiceLabel;
         private Label LemonadeLabel;
+        private Label label21;
+        private Label label22;
+        private Label label23;
+        private Label label28;
+        private Label label29;
+        private Label label16;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label10;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private Label label15;
+        private Label label27;
+        private Label label26;
+        private Label label25;
+        private Label label24;
+        private Label label11;
+        private Label label30;
+        private Label label31;
+        private Label label32;
+        private Label label33;
+        private Label label34;
     }
 }
