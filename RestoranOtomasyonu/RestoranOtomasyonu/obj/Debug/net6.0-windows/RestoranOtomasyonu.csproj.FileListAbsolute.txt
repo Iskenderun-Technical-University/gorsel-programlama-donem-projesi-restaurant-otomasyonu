@@ -114,8 +114,6 @@ C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu
 C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.pdb
 C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.csproj.AssemblyReference.cache
 C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.Form1.resources
-C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.Form2.resources
-C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.kullicibilgileri.resources
 C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.Properties.Resources.resources
 C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.csproj.GenerateResource.cache
 C:\Users\nalin\Desktop\görsel programlama\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.GeneratedMSBuildEditorConfig.editorconfig

@@ -16,5 +16,11 @@ namespace RestoranOtomasyonu
         {
             InitializeComponent();
         }
+
+        private void çorbalarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            corbalar corbalar = new corbalar();
+            corbalar.Show();
+        }
     }
 }

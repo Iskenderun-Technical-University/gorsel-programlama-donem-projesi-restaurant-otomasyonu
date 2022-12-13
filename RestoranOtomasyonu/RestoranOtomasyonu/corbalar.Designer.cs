@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.YerElmasiCorbasıLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.YerElmasiCorbasıLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -91,32 +91,13 @@
             this.panel1.Size = new System.Drawing.Size(247, 218);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox1
+            // textBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(241, 148);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // YerElmasiCorbasıLabel
-            // 
-            this.YerElmasiCorbasıLabel.AutoSize = true;
-            this.YerElmasiCorbasıLabel.Location = new System.Drawing.Point(3, 11);
-            this.YerElmasiCorbasıLabel.Name = "YerElmasiCorbasıLabel";
-            this.YerElmasiCorbasıLabel.Size = new System.Drawing.Size(130, 20);
-            this.YerElmasiCorbasıLabel.TabIndex = 1;
-            this.YerElmasiCorbasıLabel.Text = "Yer Elması Çorbası";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(3, 185);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.textBox1.Location = new System.Drawing.Point(100, 187);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(47, 27);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "0";
             // 
             // button2
             // 
@@ -128,12 +109,32 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox1
+            // button1
             // 
-            this.textBox1.Location = new System.Drawing.Point(100, 187);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(47, 27);
-            this.textBox1.TabIndex = 4;
+            this.button1.Location = new System.Drawing.Point(3, 185);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // YerElmasiCorbasıLabel
+            // 
+            this.YerElmasiCorbasıLabel.AutoSize = true;
+            this.YerElmasiCorbasıLabel.Location = new System.Drawing.Point(3, 11);
+            this.YerElmasiCorbasıLabel.Name = "YerElmasiCorbasıLabel";
+            this.YerElmasiCorbasıLabel.Size = new System.Drawing.Size(130, 20);
+            this.YerElmasiCorbasıLabel.TabIndex = 1;
+            this.YerElmasiCorbasıLabel.Text = "Yer Elması Çorbası";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(3, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(241, 148);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -153,6 +154,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(53, 27);
             this.textBox2.TabIndex = 4;
+            this.textBox2.Text = "0";
             // 
             // button3
             // 
@@ -162,6 +164,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -171,6 +174,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // MercimekCorbasiLabel
             // 
@@ -207,6 +211,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(53, 27);
             this.textBox3.TabIndex = 4;
+            this.textBox3.Text = "0";
             // 
             // button5
             // 
@@ -262,6 +267,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(53, 27);
             this.textBox4.TabIndex = 4;
+            this.textBox4.Text = "0";
             // 
             // button7
             // 
@@ -316,6 +322,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(50, 27);
             this.textBox5.TabIndex = 4;
+            this.textBox5.Text = "0";
             // 
             // button9
             // 
@@ -372,6 +379,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(53, 27);
             this.textBox6.TabIndex = 4;
+            this.textBox6.Text = "0";
             // 
             // button11
             // 
