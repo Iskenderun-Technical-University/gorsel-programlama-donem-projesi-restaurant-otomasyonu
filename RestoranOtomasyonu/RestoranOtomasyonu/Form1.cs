@@ -28,5 +28,11 @@ namespace RestoranOtomasyonu
             AraSicaklar araSicaklar = new AraSicaklar();
             araSicaklar.Show();
         }
+
+        private void anaYemeklerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AnaYemekler anaYemekler = new AnaYemekler();
+            anaYemekler.Show();
+        }
     }
 }

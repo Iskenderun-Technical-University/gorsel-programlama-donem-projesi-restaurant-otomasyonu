@@ -86,6 +86,7 @@
             this.anaYemeklerToolStripMenuItem.Name = "anaYemeklerToolStripMenuItem";
             this.anaYemeklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.anaYemeklerToolStripMenuItem.Text = "ana yemekler";
+            this.anaYemeklerToolStripMenuItem.Click += new System.EventHandler(this.anaYemeklerToolStripMenuItem_Click);
             // 
             // tatlılarToolStripMenuItem
             // 
