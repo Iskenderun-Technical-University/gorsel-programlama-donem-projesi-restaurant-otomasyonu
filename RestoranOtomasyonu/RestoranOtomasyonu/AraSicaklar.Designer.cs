@@ -93,9 +93,11 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::RestoranOtomasyonu.Properties.Resources.maxresdefault;
             this.pictureBox1.Location = new System.Drawing.Point(3, 35);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(255, 171);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -150,9 +152,11 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::RestoranOtomasyonu.Properties.Resources.pastırmalı_humus;
             this.pictureBox2.Location = new System.Drawing.Point(3, 35);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(255, 171);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -207,11 +211,14 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::RestoranOtomasyonu.Properties.Resources.mücver;
             this.pictureBox3.Location = new System.Drawing.Point(3, 35);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(255, 171);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // MucverLabel
             // 
@@ -264,9 +271,11 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::RestoranOtomasyonu.Properties.Resources.kaşarlı_patates_kroket1;
             this.pictureBox4.Location = new System.Drawing.Point(3, 35);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(255, 171);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
@@ -321,9 +330,11 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::RestoranOtomasyonu.Properties.Resources.paçanga;
             this.pictureBox5.Location = new System.Drawing.Point(3, 35);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(255, 171);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
             // 
@@ -376,9 +387,11 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::RestoranOtomasyonu.Properties.Resources.kuru_dolma;
             this.pictureBox6.Location = new System.Drawing.Point(3, 35);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(255, 171);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 3;
             this.pictureBox6.TabStop = false;
             // 

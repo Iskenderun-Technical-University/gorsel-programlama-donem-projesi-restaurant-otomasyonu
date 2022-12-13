@@ -133,5 +133,10 @@ namespace RestoranOtomasyonu
                 button7.Enabled = false;
             }
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
