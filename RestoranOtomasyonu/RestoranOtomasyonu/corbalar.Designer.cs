@@ -130,9 +130,11 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::RestoranOtomasyonu.Properties.Resources.yer_elmasi_corbasi_tarifi_1;
             this.pictureBox1.Location = new System.Drawing.Point(3, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(241, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -187,9 +189,11 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::RestoranOtomasyonu.Properties.Resources.merciemk;
             this.pictureBox2.Location = new System.Drawing.Point(3, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(256, 148);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -221,6 +225,7 @@
             this.button5.TabIndex = 3;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -230,6 +235,7 @@
             this.button6.TabIndex = 2;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // KremaliMantarCorbasiLabel
             // 
@@ -242,9 +248,11 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::RestoranOtomasyonu.Properties.Resources.kremalı_mantae;
             this.pictureBox3.Location = new System.Drawing.Point(3, 34);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(249, 148);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
@@ -277,6 +285,7 @@
             this.button7.TabIndex = 3;
             this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -286,6 +295,7 @@
             this.button8.TabIndex = 2;
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // DomatesCorbasıLabel
             // 
@@ -298,9 +308,11 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::RestoranOtomasyonu.Properties.Resources.domates_çorbası;
             this.pictureBox4.Location = new System.Drawing.Point(3, 32);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(244, 148);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
@@ -354,9 +366,11 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::RestoranOtomasyonu.Properties.Resources.bakla_çrobası;
             this.pictureBox5.Location = new System.Drawing.Point(3, 31);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(244, 148);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
@@ -410,9 +424,11 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::RestoranOtomasyonu.Properties.Resources.ceviz_çorbası;
             this.pictureBox6.Location = new System.Drawing.Point(3, 27);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(241, 148);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 

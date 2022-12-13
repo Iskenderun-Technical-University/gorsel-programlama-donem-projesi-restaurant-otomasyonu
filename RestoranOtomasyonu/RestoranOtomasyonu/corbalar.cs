@@ -91,5 +91,62 @@ namespace RestoranOtomasyonu
             }
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int c; //alınacak çorba sayısı için c değeri tanımladık 
+
+            c = Convert.ToInt32(textBox3.Text);//c integer değer text ise string değer olduğu için dönüşüm yaptık
+            c = c + 1;
+            textBox3.Text = Convert.ToString(c);
+            if (Convert.ToInt32(textBox3.Text) > 0)//eğer textbox 0 dan büyükse buton 5 yi aktifleştir.
+
+            {
+                button5.Enabled = true;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int c; //alınacak çorba sayısı için c değeri tanımladık 
+
+            c = Convert.ToInt32(textBox3.Text);//c integer değer text ise string değer olduğu için dönüşüm yaptık
+            c = c - 1;
+            textBox3.Text = Convert.ToString(c);
+            if (textBox3.Text == Convert.ToString(0))//eğer textbox 0 ise buton 5 yi kapat.
+
+            {
+                button5.Enabled = false;
+            }
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            int d; //alınacak çorba sayısı için d değeri tanımladık 
+
+            d = Convert.ToInt32(textBox4.Text);//d integer değer text ise string değer olduğu için dönüşüm yaptık
+            d = d + 1;
+            textBox4.Text = Convert.ToString(d);
+            if (Convert.ToInt32(textBox4.Text) > 0)//eğer textbox 0 dan büyükse buton 7 yi aktifleştir.
+
+            {
+                button7.Enabled = true;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int d; //alınacak çorba sayısı için d değeri tanımladık 
+
+            d = Convert.ToInt32(textBox4.Text);//d integer değer text ise string değer olduğu için dönüşüm yaptık
+            d = d - 1;
+            textBox4.Text = Convert.ToString(d);
+            if (textBox4.Text == Convert.ToString(0))//eğer textbox 0 ise buton 7 yi kapat.
+
+            {
+                button7.Enabled = false;
+            }
+        }
     }
 }
