@@ -79,6 +79,7 @@
             this.araSıcaklarToolStripMenuItem.Name = "araSıcaklarToolStripMenuItem";
             this.araSıcaklarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.araSıcaklarToolStripMenuItem.Text = "ara sıcaklar";
+            this.araSıcaklarToolStripMenuItem.Click += new System.EventHandler(this.araSıcaklarToolStripMenuItem_Click);
             // 
             // anaYemeklerToolStripMenuItem
             // 

@@ -145,3 +145,4 @@ C:\Users\ozlem\Desktop\en sonn proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\D
 C:\Users\ozlem\Desktop\en sonn proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.pdb
 C:\Users\ozlem\Desktop\en sonn proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.genruntimeconfig.cache
 C:\Users\ozlem\Desktop\en sonn proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\ref\RestoranOtomasyonu.dll
+C:\Users\ozlem\Desktop\en sonn proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.AraSicaklar.resources

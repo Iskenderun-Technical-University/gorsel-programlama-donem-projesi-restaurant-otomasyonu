@@ -22,5 +22,11 @@ namespace RestoranOtomasyonu
             corbalar corbalar = new corbalar();
             corbalar.Show();
         }
+
+        private void araSıcaklarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AraSicaklar araSicaklar = new AraSicaklar();
+            araSicaklar.Show();
+        }
     }
 }
