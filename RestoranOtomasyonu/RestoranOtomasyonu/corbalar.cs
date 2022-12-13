@@ -29,6 +29,16 @@ namespace RestoranOtomasyonu
 
         private void button10_Click(object sender, EventArgs e)
         {
+            int d ; //alınacak çorba sayısı için d değeri tanımladık 
+
+            d = Convert.ToInt32(textBox5.Text);//d integer değer text ise string değer olduğu için dönüşüm yaptık
+            d = d + 1;
+            textBox5.Text = Convert.ToString(d);
+            if (Convert.ToInt32(textBox5.Text) > 0)//eğer textbox 0 dan büyükse buton 9 yi aktifleştir.
+
+            {
+                button9.Enabled = true;
+            }
 
         }
 
@@ -147,6 +157,50 @@ namespace RestoranOtomasyonu
             {
                 button7.Enabled = false;
             }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int d; //alınacak çorba sayısı için  d değeri tanımladık 
+
+            d = Convert.ToInt32(textBox5.Text);//d integer değer text ise string değer olduğu için dönüşüm yaptık
+            d = d - 1;
+            textBox5.Text = Convert.ToString(d);
+            if (textBox5.Text == Convert.ToString(0))//eğer textbox 0 ise buton 9 yi kapat.
+
+            {
+                button9.Enabled = false;
+            }
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            int f; //alınacak çorba sayısı için f değeri tanımladık 
+
+            f = Convert.ToInt32(textBox4.Text);//f integer değer text ise string değer olduğu için dönüşüm yaptık
+            f = f + 1;
+            textBox6.Text = Convert.ToString(f);
+            if (Convert.ToInt32(textBox6.Text) > 0)//eğer textbox 0 dan büyükse buton 11 yi aktifleştir.
+
+            {
+                button11.Enabled = true;
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            int f; //alınacak çorba sayısı için f değeri tanımladık 
+
+            f = Convert.ToInt32(textBox6.Text);//f integer değer text ise string değer olduğu için dönüşüm yaptık
+            f = f - 1;
+            textBox6.Text = Convert.ToString(f);
+            if (textBox6.Text == Convert.ToString(0))//eğer textbox 0 ise buton 11 yi kapat.
+
+            {
+                button11.Enabled = false;
+            }
+
         }
     }
 }
