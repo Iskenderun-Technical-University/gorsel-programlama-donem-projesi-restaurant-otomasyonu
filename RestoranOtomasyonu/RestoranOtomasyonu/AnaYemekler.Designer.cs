@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.AnkaraTavaLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.AnkaraTavaLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -90,32 +90,13 @@
             this.panel1.Size = new System.Drawing.Size(274, 269);
             this.panel1.TabIndex = 0;
             // 
-            // AnkaraTavaLabel
+            // textBox1
             // 
-            this.AnkaraTavaLabel.AutoSize = true;
-            this.AnkaraTavaLabel.Location = new System.Drawing.Point(16, 11);
-            this.AnkaraTavaLabel.Name = "AnkaraTavaLabel";
-            this.AnkaraTavaLabel.Size = new System.Drawing.Size(88, 20);
-            this.AnkaraTavaLabel.TabIndex = 1;
-            this.AnkaraTavaLabel.Text = "Ankara Tava";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(266, 174);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(3, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.textBox1.Location = new System.Drawing.Point(103, 231);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(66, 27);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "0";
             // 
             // button2
             // 
@@ -127,13 +108,32 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox1
+            // button1
             // 
-            this.textBox1.Location = new System.Drawing.Point(103, 231);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(66, 27);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "0";
+            this.button1.Location = new System.Drawing.Point(3, 231);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(3, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // AnkaraTavaLabel
+            // 
+            this.AnkaraTavaLabel.AutoSize = true;
+            this.AnkaraTavaLabel.Location = new System.Drawing.Point(16, 11);
+            this.AnkaraTavaLabel.Name = "AnkaraTavaLabel";
+            this.AnkaraTavaLabel.Size = new System.Drawing.Size(88, 20);
+            this.AnkaraTavaLabel.TabIndex = 1;
+            this.AnkaraTavaLabel.Text = "Ankara Tava";
             // 
             // panel2
             // 
@@ -220,6 +220,7 @@
             this.button5.TabIndex = 3;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -229,6 +230,7 @@
             this.button6.TabIndex = 1;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox3
             // 
@@ -275,6 +277,7 @@
             this.button7.TabIndex = 3;
             this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -284,6 +287,7 @@
             this.button8.TabIndex = 1;
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // pictureBox4
             // 
