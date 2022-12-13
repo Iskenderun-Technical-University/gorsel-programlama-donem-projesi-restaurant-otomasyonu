@@ -3,12 +3,12 @@
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,1034 +23,145 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.TeaLabel = new System.Windows.Forms.Label();
-            this.CoffeeLabel = new System.Windows.Forms.Label();
-            this.JuiceLabel = new System.Windows.Forms.Label();
-            this.LemonadeLabel = new System.Windows.Forms.Label();
-            this.ShrimpLabel = new System.Windows.Forms.Label();
-            this.SteakAndPotatoesLabel = new System.Windows.Forms.Label();
-            this.LambLabel = new System.Windows.Forms.Label();
-            this.GrilledChickenLabel = new System.Windows.Forms.Label();
-            this.SalmonLabel = new System.Windows.Forms.Label();
-            this.RisottoLabel = new System.Windows.Forms.Label();
-            this.CaramelCakeLabel = new System.Windows.Forms.Label();
-            this.DatePuddingLabel = new System.Windows.Forms.Label();
-            this.ChocolateCakeLabel = new System.Windows.Forms.Label();
-            this.BrownieAlaModeLabel = new System.Windows.Forms.Label();
-            this.HaystackLabel = new System.Windows.Forms.Label();
-            this.CalamariLabel = new System.Windows.Forms.Label();
-            this.ChickenPopcornLabel = new System.Windows.Forms.Label();
-            this.JalepenoLabel = new System.Windows.Forms.Label();
-            this.CalmCnowderLabel = new System.Windows.Forms.Label();
-            this.MinestroneLabel = new System.Windows.Forms.Label();
-            this.capreseSaladLabel = new System.Windows.Forms.Label();
-            this.mozarellaLabel = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.yemeklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.çorbalarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.araSıcaklarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.anaYemeklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tatlılarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sütlüTatlılarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.şerbetliTatlılarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.içeceklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.soğukİçeceklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sıcakİçeceklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.siparişlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // menuStrip1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.label33);
-            this.panel1.Controls.Add(this.label34);
-            this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.label22);
-            this.panel1.Controls.Add(this.label23);
-            this.panel1.Controls.Add(this.label28);
-            this.panel1.Controls.Add(this.label29);
-            this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.label20);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.label27);
-            this.panel1.Controls.Add(this.label26);
-            this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.label24);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.TeaLabel);
-            this.panel1.Controls.Add(this.CoffeeLabel);
-            this.panel1.Controls.Add(this.JuiceLabel);
-            this.panel1.Controls.Add(this.LemonadeLabel);
-            this.panel1.Controls.Add(this.ShrimpLabel);
-            this.panel1.Controls.Add(this.SteakAndPotatoesLabel);
-            this.panel1.Controls.Add(this.LambLabel);
-            this.panel1.Controls.Add(this.GrilledChickenLabel);
-            this.panel1.Controls.Add(this.SalmonLabel);
-            this.panel1.Controls.Add(this.RisottoLabel);
-            this.panel1.Controls.Add(this.CaramelCakeLabel);
-            this.panel1.Controls.Add(this.DatePuddingLabel);
-            this.panel1.Controls.Add(this.ChocolateCakeLabel);
-            this.panel1.Controls.Add(this.BrownieAlaModeLabel);
-            this.panel1.Controls.Add(this.HaystackLabel);
-            this.panel1.Controls.Add(this.CalamariLabel);
-            this.panel1.Controls.Add(this.ChickenPopcornLabel);
-            this.panel1.Controls.Add(this.JalepenoLabel);
-            this.panel1.Controls.Add(this.CalmCnowderLabel);
-            this.panel1.Controls.Add(this.MinestroneLabel);
-            this.panel1.Controls.Add(this.capreseSaladLabel);
-            this.panel1.Controls.Add(this.mozarellaLabel);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.checkBox23);
-            this.panel1.Controls.Add(this.checkBox22);
-            this.panel1.Controls.Add(this.checkBox21);
-            this.panel1.Controls.Add(this.checkBox20);
-            this.panel1.Controls.Add(this.checkBox18);
-            this.panel1.Controls.Add(this.checkBox17);
-            this.panel1.Controls.Add(this.checkBox16);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.checkBox15);
-            this.panel1.Controls.Add(this.checkBox14);
-            this.panel1.Controls.Add(this.checkBox13);
-            this.panel1.Controls.Add(this.checkBox12);
-            this.panel1.Controls.Add(this.checkBox11);
-            this.panel1.Controls.Add(this.checkBox10);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.checkBox9);
-            this.panel1.Controls.Add(this.checkBox8);
-            this.panel1.Controls.Add(this.checkBox7);
-            this.panel1.Controls.Add(this.checkBox6);
-            this.panel1.Controls.Add(this.checkBox5);
-            this.panel1.Controls.Add(this.checkBox4);
-            this.panel1.Controls.Add(this.checkBox3);
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(24, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(588, 735);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.yemeklerToolStripMenuItem,
+            this.tatlılarToolStripMenuItem,
+            this.içeceklerToolStripMenuItem,
+            this.siparişlerToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // TeaLabel
+            // yemeklerToolStripMenuItem
             // 
-            this.TeaLabel.AutoSize = true;
-            this.TeaLabel.Location = new System.Drawing.Point(507, 633);
-            this.TeaLabel.Name = "TeaLabel";
-            this.TeaLabel.Size = new System.Drawing.Size(17, 20);
-            this.TeaLabel.TabIndex = 54;
-            this.TeaLabel.Text = "5";
+            this.yemeklerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.çorbalarToolStripMenuItem,
+            this.araSıcaklarToolStripMenuItem,
+            this.anaYemeklerToolStripMenuItem});
+            this.yemeklerToolStripMenuItem.Name = "yemeklerToolStripMenuItem";
+            this.yemeklerToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
+            this.yemeklerToolStripMenuItem.Text = "yemekler";
             // 
-            // CoffeeLabel
+            // çorbalarToolStripMenuItem
             // 
-            this.CoffeeLabel.AutoSize = true;
-            this.CoffeeLabel.Location = new System.Drawing.Point(507, 603);
-            this.CoffeeLabel.Name = "CoffeeLabel";
-            this.CoffeeLabel.Size = new System.Drawing.Size(17, 20);
-            this.CoffeeLabel.TabIndex = 53;
-            this.CoffeeLabel.Text = "8";
+            this.çorbalarToolStripMenuItem.Name = "çorbalarToolStripMenuItem";
+            this.çorbalarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.çorbalarToolStripMenuItem.Text = "çorbalar";
             // 
-            // JuiceLabel
+            // araSıcaklarToolStripMenuItem
             // 
-            this.JuiceLabel.AutoSize = true;
-            this.JuiceLabel.Location = new System.Drawing.Point(507, 573);
-            this.JuiceLabel.Name = "JuiceLabel";
-            this.JuiceLabel.Size = new System.Drawing.Size(17, 20);
-            this.JuiceLabel.TabIndex = 52;
-            this.JuiceLabel.Text = "6";
+            this.araSıcaklarToolStripMenuItem.Name = "araSıcaklarToolStripMenuItem";
+            this.araSıcaklarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.araSıcaklarToolStripMenuItem.Text = "ara sıcaklar";
             // 
-            // LemonadeLabel
+            // anaYemeklerToolStripMenuItem
             // 
-            this.LemonadeLabel.AutoSize = true;
-            this.LemonadeLabel.Location = new System.Drawing.Point(507, 543);
-            this.LemonadeLabel.Name = "LemonadeLabel";
-            this.LemonadeLabel.Size = new System.Drawing.Size(17, 20);
-            this.LemonadeLabel.TabIndex = 51;
-            this.LemonadeLabel.Text = "6";
+            this.anaYemeklerToolStripMenuItem.Name = "anaYemeklerToolStripMenuItem";
+            this.anaYemeklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.anaYemeklerToolStripMenuItem.Text = "ana yemekler";
             // 
-            // ShrimpLabel
+            // tatlılarToolStripMenuItem
             // 
-            this.ShrimpLabel.AutoSize = true;
-            this.ShrimpLabel.Location = new System.Drawing.Point(176, 409);
-            this.ShrimpLabel.Name = "ShrimpLabel";
-            this.ShrimpLabel.Size = new System.Drawing.Size(25, 20);
-            this.ShrimpLabel.TabIndex = 50;
-            this.ShrimpLabel.Text = "20";
+            this.tatlılarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sütlüTatlılarToolStripMenuItem,
+            this.şerbetliTatlılarToolStripMenuItem});
+            this.tatlılarToolStripMenuItem.Name = "tatlılarToolStripMenuItem";
+            this.tatlılarToolStripMenuItem.Size = new System.Drawing.Size(66, 24);
+            this.tatlılarToolStripMenuItem.Text = "tatlılar";
             // 
-            // SteakAndPotatoesLabel
+            // sütlüTatlılarToolStripMenuItem
             // 
-            this.SteakAndPotatoesLabel.AutoSize = true;
-            this.SteakAndPotatoesLabel.Location = new System.Drawing.Point(507, 439);
-            this.SteakAndPotatoesLabel.Name = "SteakAndPotatoesLabel";
-            this.SteakAndPotatoesLabel.Size = new System.Drawing.Size(25, 20);
-            this.SteakAndPotatoesLabel.TabIndex = 49;
-            this.SteakAndPotatoesLabel.Text = "38";
+            this.sütlüTatlılarToolStripMenuItem.Name = "sütlüTatlılarToolStripMenuItem";
+            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sütlüTatlılarToolStripMenuItem.Text = "sütlü tatlılar ";
             // 
-            // LambLabel
+            // şerbetliTatlılarToolStripMenuItem
             // 
-            this.LambLabel.AutoSize = true;
-            this.LambLabel.Location = new System.Drawing.Point(507, 407);
-            this.LambLabel.Name = "LambLabel";
-            this.LambLabel.Size = new System.Drawing.Size(25, 20);
-            this.LambLabel.TabIndex = 48;
-            this.LambLabel.Text = "35";
+            this.şerbetliTatlılarToolStripMenuItem.Name = "şerbetliTatlılarToolStripMenuItem";
+            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.şerbetliTatlılarToolStripMenuItem.Text = "şerbetli tatlılar";
             // 
-            // GrilledChickenLabel
+            // içeceklerToolStripMenuItem
             // 
-            this.GrilledChickenLabel.AutoSize = true;
-            this.GrilledChickenLabel.Location = new System.Drawing.Point(507, 377);
-            this.GrilledChickenLabel.Name = "GrilledChickenLabel";
-            this.GrilledChickenLabel.Size = new System.Drawing.Size(25, 20);
-            this.GrilledChickenLabel.TabIndex = 47;
-            this.GrilledChickenLabel.Text = "25";
+            this.içeceklerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.soğukİçeceklerToolStripMenuItem,
+            this.sıcakİçeceklerToolStripMenuItem});
+            this.içeceklerToolStripMenuItem.Name = "içeceklerToolStripMenuItem";
+            this.içeceklerToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.içeceklerToolStripMenuItem.Text = "içecekler";
             // 
-            // SalmonLabel
+            // soğukİçeceklerToolStripMenuItem
             // 
-            this.SalmonLabel.AutoSize = true;
-            this.SalmonLabel.Location = new System.Drawing.Point(507, 349);
-            this.SalmonLabel.Name = "SalmonLabel";
-            this.SalmonLabel.Size = new System.Drawing.Size(25, 20);
-            this.SalmonLabel.TabIndex = 46;
-            this.SalmonLabel.Text = "35";
+            this.soğukİçeceklerToolStripMenuItem.Name = "soğukİçeceklerToolStripMenuItem";
+            this.soğukİçeceklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.soğukİçeceklerToolStripMenuItem.Text = "soğuk içecekler";
             // 
-            // RisottoLabel
+            // sıcakİçeceklerToolStripMenuItem
             // 
-            this.RisottoLabel.AutoSize = true;
-            this.RisottoLabel.Location = new System.Drawing.Point(507, 319);
-            this.RisottoLabel.Name = "RisottoLabel";
-            this.RisottoLabel.Size = new System.Drawing.Size(25, 20);
-            this.RisottoLabel.TabIndex = 45;
-            this.RisottoLabel.Text = "30";
+            this.sıcakİçeceklerToolStripMenuItem.Name = "sıcakİçeceklerToolStripMenuItem";
+            this.sıcakİçeceklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sıcakİçeceklerToolStripMenuItem.Text = "sıcak içecekler";
             // 
-            // CaramelCakeLabel
+            // siparişlerToolStripMenuItem
             // 
-            this.CaramelCakeLabel.AutoSize = true;
-            this.CaramelCakeLabel.Location = new System.Drawing.Point(176, 633);
-            this.CaramelCakeLabel.Name = "CaramelCakeLabel";
-            this.CaramelCakeLabel.Size = new System.Drawing.Size(25, 20);
-            this.CaramelCakeLabel.TabIndex = 44;
-            this.CaramelCakeLabel.Text = "13";
-            // 
-            // DatePuddingLabel
-            // 
-            this.DatePuddingLabel.AutoSize = true;
-            this.DatePuddingLabel.Location = new System.Drawing.Point(176, 603);
-            this.DatePuddingLabel.Name = "DatePuddingLabel";
-            this.DatePuddingLabel.Size = new System.Drawing.Size(17, 20);
-            this.DatePuddingLabel.TabIndex = 43;
-            this.DatePuddingLabel.Text = "8";
-            // 
-            // ChocolateCakeLabel
-            // 
-            this.ChocolateCakeLabel.AutoSize = true;
-            this.ChocolateCakeLabel.Location = new System.Drawing.Point(176, 573);
-            this.ChocolateCakeLabel.Name = "ChocolateCakeLabel";
-            this.ChocolateCakeLabel.Size = new System.Drawing.Size(25, 20);
-            this.ChocolateCakeLabel.TabIndex = 42;
-            this.ChocolateCakeLabel.Text = "12";
-            // 
-            // BrownieAlaModeLabel
-            // 
-            this.BrownieAlaModeLabel.AutoSize = true;
-            this.BrownieAlaModeLabel.Location = new System.Drawing.Point(176, 543);
-            this.BrownieAlaModeLabel.Name = "BrownieAlaModeLabel";
-            this.BrownieAlaModeLabel.Size = new System.Drawing.Size(25, 20);
-            this.BrownieAlaModeLabel.TabIndex = 41;
-            this.BrownieAlaModeLabel.Text = "10";
-            // 
-            // HaystackLabel
-            // 
-            this.HaystackLabel.AutoSize = true;
-            this.HaystackLabel.Location = new System.Drawing.Point(176, 377);
-            this.HaystackLabel.Name = "HaystackLabel";
-            this.HaystackLabel.Size = new System.Drawing.Size(25, 20);
-            this.HaystackLabel.TabIndex = 40;
-            this.HaystackLabel.Text = "15";
-            // 
-            // CalamariLabel
-            // 
-            this.CalamariLabel.AutoSize = true;
-            this.CalamariLabel.Location = new System.Drawing.Point(176, 347);
-            this.CalamariLabel.Name = "CalamariLabel";
-            this.CalamariLabel.Size = new System.Drawing.Size(25, 20);
-            this.CalamariLabel.TabIndex = 39;
-            this.CalamariLabel.Text = "25";
-            // 
-            // ChickenPopcornLabel
-            // 
-            this.ChickenPopcornLabel.AutoSize = true;
-            this.ChickenPopcornLabel.Location = new System.Drawing.Point(176, 317);
-            this.ChickenPopcornLabel.Name = "ChickenPopcornLabel";
-            this.ChickenPopcornLabel.Size = new System.Drawing.Size(25, 20);
-            this.ChickenPopcornLabel.TabIndex = 38;
-            this.ChickenPopcornLabel.Text = "15";
-            // 
-            // JalepenoLabel
-            // 
-            this.JalepenoLabel.AutoSize = true;
-            this.JalepenoLabel.Location = new System.Drawing.Point(176, 179);
-            this.JalepenoLabel.Name = "JalepenoLabel";
-            this.JalepenoLabel.Size = new System.Drawing.Size(25, 20);
-            this.JalepenoLabel.TabIndex = 37;
-            this.JalepenoLabel.Text = "19";
-            // 
-            // CalmCnowderLabel
-            // 
-            this.CalmCnowderLabel.AutoSize = true;
-            this.CalmCnowderLabel.Location = new System.Drawing.Point(176, 149);
-            this.CalmCnowderLabel.Name = "CalmCnowderLabel";
-            this.CalmCnowderLabel.Size = new System.Drawing.Size(25, 20);
-            this.CalmCnowderLabel.TabIndex = 36;
-            this.CalmCnowderLabel.Text = "13";
-            // 
-            // MinestroneLabel
-            // 
-            this.MinestroneLabel.AutoSize = true;
-            this.MinestroneLabel.Location = new System.Drawing.Point(176, 119);
-            this.MinestroneLabel.Name = "MinestroneLabel";
-            this.MinestroneLabel.Size = new System.Drawing.Size(25, 20);
-            this.MinestroneLabel.TabIndex = 35;
-            this.MinestroneLabel.Text = "15";
-            // 
-            // capreseSaladLabel
-            // 
-            this.capreseSaladLabel.AutoSize = true;
-            this.capreseSaladLabel.Location = new System.Drawing.Point(176, 89);
-            this.capreseSaladLabel.Name = "capreseSaladLabel";
-            this.capreseSaladLabel.Size = new System.Drawing.Size(25, 20);
-            this.capreseSaladLabel.TabIndex = 34;
-            this.capreseSaladLabel.Text = "10";
-            // 
-            // mozarellaLabel
-            // 
-            this.mozarellaLabel.AutoSize = true;
-            this.mozarellaLabel.Location = new System.Drawing.Point(176, 59);
-            this.mozarellaLabel.Name = "mozarellaLabel";
-            this.mozarellaLabel.Size = new System.Drawing.Size(25, 20);
-            this.mozarellaLabel.TabIndex = 1;
-            this.mozarellaLabel.Text = "15";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(444, 694);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 29);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "sonraki";
-            this.button2.UseMnemonic = false;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(232, 694);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 29);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "önceki";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Black;
-            this.label9.Font = new System.Drawing.Font("MV Boli", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(53, 678);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 29);
-            this.label9.TabIndex = 31;
-            this.label9.Text = "ME   ";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Black;
-            this.label8.Font = new System.Drawing.Font("MV Boli", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(-12, 707);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 29);
-            this.label8.TabIndex = 30;
-            this.label8.Text = "     NU";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Black;
-            this.label7.Font = new System.Drawing.Font("MV Boli", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(486, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 29);
-            this.label7.TabIndex = 29;
-            this.label7.Text = "ME     ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Black;
-            this.label6.Font = new System.Drawing.Font("MV Boli", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(448, 29);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 29);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "   NU";
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox23.Location = new System.Drawing.Point(364, 605);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(61, 21);
-            this.checkBox23.TabIndex = 27;
-            this.checkBox23.Text = "Coffe";
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox22.Location = new System.Drawing.Point(364, 635);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(50, 21);
-            this.checkBox22.TabIndex = 26;
-            this.checkBox22.Text = "Tea";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox21.Location = new System.Drawing.Point(364, 544);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(88, 21);
-            this.checkBox21.TabIndex = 25;
-            this.checkBox21.Text = "Lemonade";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox20.Location = new System.Drawing.Point(364, 576);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(61, 21);
-            this.checkBox20.TabIndex = 24;
-            this.checkBox20.Text = "Juice";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox18.Location = new System.Drawing.Point(25, 574);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(119, 21);
-            this.checkBox18.TabIndex = 22;
-            this.checkBox18.Text = "Chocolate Cake";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox17.Location = new System.Drawing.Point(24, 604);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(110, 21);
-            this.checkBox17.TabIndex = 21;
-            this.checkBox17.Text = "Date Pudding";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox16.Location = new System.Drawing.Point(24, 634);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(114, 21);
-            this.checkBox16.TabIndex = 20;
-            this.checkBox16.Text = "Caramel Cake ";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(364, 510);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 22);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "D R İ N K S";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(25, 510);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(146, 22);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "D E S S E R T";
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox15.Location = new System.Drawing.Point(364, 408);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(62, 21);
-            this.checkBox15.TabIndex = 17;
-            this.checkBox15.Text = "Lamb";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox14.Location = new System.Drawing.Point(364, 378);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(116, 21);
-            this.checkBox14.TabIndex = 16;
-            this.checkBox14.Text = "Grilled Chicken";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox13.Location = new System.Drawing.Point(364, 348);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(72, 21);
-            this.checkBox13.TabIndex = 15;
-            this.checkBox13.Text = "Salmon";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox12.Location = new System.Drawing.Point(364, 318);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(75, 21);
-            this.checkBox12.TabIndex = 14;
-            this.checkBox12.Text = "Risotto";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox11.Location = new System.Drawing.Point(364, 438);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(149, 21);
-            this.checkBox11.TabIndex = 13;
-            this.checkBox11.Text = "Steak and Potatoes";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox10.Location = new System.Drawing.Point(24, 544);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(139, 21);
-            this.checkBox10.TabIndex = 12;
-            this.checkBox10.Text = "Brownie Ala Mode";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(364, 281);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 22);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "M A I N S ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(25, 281);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 22);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "P L A T T E R S";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox9.Location = new System.Drawing.Point(25, 408);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(72, 21);
-            this.checkBox9.TabIndex = 9;
-            this.checkBox9.Text = "Shrimp";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox8.Location = new System.Drawing.Point(25, 378);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(82, 21);
-            this.checkBox8.TabIndex = 8;
-            this.checkBox8.Text = "Haystack";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox7.Location = new System.Drawing.Point(25, 348);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(79, 21);
-            this.checkBox7.TabIndex = 7;
-            this.checkBox7.Text = "Calamari";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox6.Location = new System.Drawing.Point(24, 318);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(128, 21);
-            this.checkBox6.TabIndex = 6;
-            this.checkBox6.Text = "Chicken Popcorn";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox5.Location = new System.Drawing.Point(24, 178);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(133, 21);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = "Jalepeno Pappers";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox4.Location = new System.Drawing.Point(24, 148);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(115, 21);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "Clam Cnowder";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox3.Location = new System.Drawing.Point(24, 118);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(96, 21);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "Minestrone";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox2.Location = new System.Drawing.Point(24, 88);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(110, 21);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Caprese Salad";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(24, 58);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(127, 21);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Mozarella Sticks";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(24, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 22);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "S T A R T E R S";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(196, 59);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(17, 20);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "$";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(196, 89);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(17, 20);
-            this.label24.TabIndex = 67;
-            this.label24.Text = "$";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(196, 181);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(17, 20);
-            this.label25.TabIndex = 68;
-            this.label25.Text = "$";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(196, 149);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(17, 20);
-            this.label26.TabIndex = 69;
-            this.label26.Text = "$";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(196, 121);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(17, 20);
-            this.label27.TabIndex = 70;
-            this.label27.Text = "$";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(196, 381);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 20);
-            this.label10.TabIndex = 75;
-            this.label10.Text = "$";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(196, 409);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 20);
-            this.label12.TabIndex = 74;
-            this.label12.Text = "$";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(196, 543);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(17, 20);
-            this.label13.TabIndex = 73;
-            this.label13.Text = "$";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(196, 349);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 20);
-            this.label14.TabIndex = 72;
-            this.label14.Text = "$";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(196, 319);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 20);
-            this.label15.TabIndex = 71;
-            this.label15.Text = "$";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(196, 635);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(17, 20);
-            this.label16.TabIndex = 80;
-            this.label16.Text = "$";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(528, 319);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 20);
-            this.label17.TabIndex = 79;
-            this.label17.Text = "$";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(528, 351);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 20);
-            this.label18.TabIndex = 78;
-            this.label18.Text = "$";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(196, 603);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(17, 20);
-            this.label19.TabIndex = 77;
-            this.label19.Text = "$";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(196, 573);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(17, 20);
-            this.label20.TabIndex = 76;
-            this.label20.Text = "$";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(528, 378);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(17, 20);
-            this.label21.TabIndex = 85;
-            this.label21.Text = "$";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(528, 406);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(17, 20);
-            this.label22.TabIndex = 84;
-            this.label22.Text = "$";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(528, 438);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(17, 20);
-            this.label23.TabIndex = 83;
-            this.label23.Text = "$";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(528, 573);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(17, 20);
-            this.label28.TabIndex = 82;
-            this.label28.Text = "$";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(528, 543);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(17, 20);
-            this.label29.TabIndex = 81;
-            this.label29.Text = "$";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(528, 633);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(17, 20);
-            this.label33.TabIndex = 87;
-            this.label33.Text = "$";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(528, 603);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(17, 20);
-            this.label34.TabIndex = 86;
-            this.label34.Text = "$";
+            this.siparişlerToolStripMenuItem.Name = "siparişlerToolStripMenuItem";
+            this.siparişlerToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.siparişlerToolStripMenuItem.Text = "siparişler";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(639, 776);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Panel panel1;
-        private Label label9;
-        private Label label8;
-        private Label label7;
-        private Label label6;
-        private CheckBox checkBox23;
-        private CheckBox checkBox22;
-        private CheckBox checkBox21;
-        private CheckBox checkBox20;
-        private CheckBox checkBox18;
-        private CheckBox checkBox17;
-        private CheckBox checkBox16;
-        private Label label5;
-        private Label label4;
-        private CheckBox checkBox15;
-        private CheckBox checkBox14;
-        private CheckBox checkBox13;
-        private CheckBox checkBox12;
-        private CheckBox checkBox11;
-        private CheckBox checkBox10;
-        private Label label3;
-        private Label label2;
-        private CheckBox checkBox9;
-        private CheckBox checkBox8;
-        private CheckBox checkBox7;
-        private CheckBox checkBox6;
-        private CheckBox checkBox5;
-        private CheckBox checkBox4;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
-        private Label label1;
-        private Button button2;
-        private Button button1;
-        private Label capreseSaladLabel;
-        private Label mozarellaLabel;
-        private Label LambLabel;
-        private Label GrilledChickenLabel;
-        private Label SalmonLabel;
-        private Label RisottoLabel;
-        private Label CaramelCakeLabel;
-        private Label DatePuddingLabel;
-        private Label ChocolateCakeLabel;
-        private Label BrownieAlaModeLabel;
-        private Label HaystackLabel;
-        private Label CalamariLabel;
-        private Label ChickenPopcornLabel;
-        private Label JalepenoLabel;
-        private Label CalmCnowderLabel;
-        private Label MinestroneLabel;
-        private Label ShrimpLabel;
-        private Label SteakAndPotatoesLabel;
-        private Label TeaLabel;
-        private Label CoffeeLabel;
-        private Label JuiceLabel;
-        private Label LemonadeLabel;
-        private Label label21;
-        private Label label22;
-        private Label label23;
-        private Label label28;
-        private Label label29;
-        private Label label16;
-        private Label label17;
-        private Label label18;
-        private Label label19;
-        private Label label20;
-        private Label label10;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label27;
-        private Label label26;
-        private Label label25;
-        private Label label24;
-        private Label label11;
-        private Label label33;
-        private Label label34;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem yemeklerToolStripMenuItem;
+        private ToolStripMenuItem çorbalarToolStripMenuItem;
+        private ToolStripMenuItem araSıcaklarToolStripMenuItem;
+        private ToolStripMenuItem anaYemeklerToolStripMenuItem;
+        private ToolStripMenuItem tatlılarToolStripMenuItem;
+        private ToolStripMenuItem sütlüTatlılarToolStripMenuItem;
+        private ToolStripMenuItem şerbetliTatlılarToolStripMenuItem;
+        private ToolStripMenuItem içeceklerToolStripMenuItem;
+        private ToolStripMenuItem soğukİçeceklerToolStripMenuItem;
+        private ToolStripMenuItem sıcakİçeceklerToolStripMenuItem;
+        private ToolStripMenuItem siparişlerToolStripMenuItem;
     }
 }
