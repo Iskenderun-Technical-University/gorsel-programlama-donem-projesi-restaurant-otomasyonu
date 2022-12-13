@@ -31,8 +31,13 @@ namespace RestoranOtomasyonu
 
         private void anaYemeklerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AnaYemekler anaYemekler = new AnaYemekler();
+            AnaYemekler anaYemekler = new anayemekler();
             anaYemekler.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
