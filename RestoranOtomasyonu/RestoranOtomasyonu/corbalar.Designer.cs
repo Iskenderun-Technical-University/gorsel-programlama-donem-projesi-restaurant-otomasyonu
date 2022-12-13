@@ -223,7 +223,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 29);
             this.button5.TabIndex = 3;
-            this.button5.Text = "azalr";
+            this.button5.Text = "azalt";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 

@@ -64,6 +64,7 @@
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -432,11 +433,21 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Ekşili Sulu Köfte";
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(875, 588);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(116, 29);
+            this.button13.TabIndex = 9;
+            this.button13.Text = "sepete ekle";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
             // AnaYemekler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(994, 603);
+            this.ClientSize = new System.Drawing.Size(1003, 620);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -505,5 +516,6 @@
         private Button button12;
         private PictureBox pictureBox6;
         private Label label6;
+        private Button button13;
     }
 }
