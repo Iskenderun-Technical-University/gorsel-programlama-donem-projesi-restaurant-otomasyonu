@@ -120,9 +120,11 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::RestoranOtomasyonu.Properties.Resources.ankara_tava;
             this.pictureBox1.Location = new System.Drawing.Point(3, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -177,9 +179,11 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::RestoranOtomasyonu.Properties.Resources.çöp_şiş;
             this.pictureBox2.Location = new System.Drawing.Point(3, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
@@ -234,9 +238,11 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::RestoranOtomasyonu.Properties.Resources.mantarlı_risotto;
             this.pictureBox3.Location = new System.Drawing.Point(3, 34);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -291,9 +297,11 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::RestoranOtomasyonu.Properties.Resources.tepsi_kebabı;
             this.pictureBox4.Location = new System.Drawing.Point(3, 34);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
@@ -348,9 +356,11 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::RestoranOtomasyonu.Properties.Resources.falafel;
             this.pictureBox5.Location = new System.Drawing.Point(3, 34);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
             // 
@@ -405,9 +415,11 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::RestoranOtomasyonu.Properties.Resources.ekşili_köfte1;
             this.pictureBox6.Location = new System.Drawing.Point(3, 34);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(266, 174);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
             // 
@@ -424,7 +436,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 594);
+            this.ClientSize = new System.Drawing.Size(994, 603);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);

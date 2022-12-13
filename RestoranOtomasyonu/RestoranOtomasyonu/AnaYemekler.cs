@@ -185,5 +185,10 @@ namespace RestoranOtomasyonu
                 button11.Enabled = false;
             }
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
