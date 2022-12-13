@@ -118,43 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bakla çrobası" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bakla çrobası.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ceviz çorbası" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ceviz çorbası.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mücver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mücver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kaşarlı patates kroket1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kaşarlı patates kroket1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="paçanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paçanga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="yer-elmasi-corbasi-tarifi-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yer-elmasi-corbasi-tarifi-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="merciemk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\merciemk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kuru dolma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kuru dolma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pastırmalı humus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pastırmalı humus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kremalı mantae" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kremalı mantae.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kaşarlı patates kroket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kaşarlı patates kroket.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mücver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mücver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="falafel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\falafel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="çöp şiş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\çöp şiş.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ceviz çorbası" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ceviz çorbası.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kremalı mantae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kremalı mantae.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tepsi kebabı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tepsi kebabı.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merciemk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merciemk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="domates çorbası" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\domates çorbası.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yer-elmasi-corbasi-tarifi-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yer-elmasi-corbasi-tarifi-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kuru dolma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kuru dolma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paçanga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paçanga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ankara tava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ankara tava.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantarlı risotto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mantarlı risotto.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bakla çrobası" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bakla çrobası.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaşarlı patates kroket1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaşarlı patates kroket1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ekşili köfte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ekşili köfte.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ekşili köfte1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ekşili köfte1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

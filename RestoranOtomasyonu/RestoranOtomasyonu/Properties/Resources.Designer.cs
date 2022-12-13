@@ -63,6 +63,16 @@ namespace RestoranOtomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap ankara_tava {
+            get {
+                object obj = ResourceManager.GetObject("ankara tava", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap bakla_çrobası {
             get {
                 object obj = ResourceManager.GetObject("bakla çrobası", resourceCulture);
@@ -83,9 +93,49 @@ namespace RestoranOtomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap çöp_şiş {
+            get {
+                object obj = ResourceManager.GetObject("çöp şiş", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap domates_çorbası {
             get {
                 object obj = ResourceManager.GetObject("domates çorbası", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap ekşili_köfte {
+            get {
+                object obj = ResourceManager.GetObject("ekşili köfte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap ekşili_köfte1 {
+            get {
+                object obj = ResourceManager.GetObject("ekşili köfte1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap falafel {
+            get {
+                object obj = ResourceManager.GetObject("falafel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +176,16 @@ namespace RestoranOtomasyonu.Properties {
         internal static System.Drawing.Bitmap kuru_dolma {
             get {
                 object obj = ResourceManager.GetObject("kuru dolma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap mantarlı_risotto {
+            get {
+                object obj = ResourceManager.GetObject("mantarlı risotto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +236,16 @@ namespace RestoranOtomasyonu.Properties {
         internal static System.Drawing.Bitmap pastırmalı_humus {
             get {
                 object obj = ResourceManager.GetObject("pastırmalı humus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap tepsi_kebabı {
+            get {
+                object obj = ResourceManager.GetObject("tepsi kebabı", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
