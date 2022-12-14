@@ -42,8 +42,8 @@ namespace RestoranOtomasyonu
 
         private void sütlüTatlılarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SutluTatlilar sutluTatlilar = new SutluTatlilar();
-            sutluTatlilar.Show();
+            ssutluTatlilar ssutluTatlilar = new ssutluTatlilar();
+            ssutluTatlilar.Show();
         }
     }
 }
