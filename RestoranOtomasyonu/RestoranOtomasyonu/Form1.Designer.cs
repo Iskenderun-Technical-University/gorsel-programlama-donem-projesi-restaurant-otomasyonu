@@ -70,21 +70,21 @@
             // çorbalarToolStripMenuItem
             // 
             this.çorbalarToolStripMenuItem.Name = "çorbalarToolStripMenuItem";
-            this.çorbalarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.çorbalarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.çorbalarToolStripMenuItem.Text = "çorbalar";
             this.çorbalarToolStripMenuItem.Click += new System.EventHandler(this.çorbalarToolStripMenuItem_Click);
             // 
             // araSıcaklarToolStripMenuItem
             // 
             this.araSıcaklarToolStripMenuItem.Name = "araSıcaklarToolStripMenuItem";
-            this.araSıcaklarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.araSıcaklarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.araSıcaklarToolStripMenuItem.Text = "ara sıcaklar";
             this.araSıcaklarToolStripMenuItem.Click += new System.EventHandler(this.araSıcaklarToolStripMenuItem_Click);
             // 
             // anaYemeklerToolStripMenuItem
             // 
             this.anaYemeklerToolStripMenuItem.Name = "anaYemeklerToolStripMenuItem";
-            this.anaYemeklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.anaYemeklerToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.anaYemeklerToolStripMenuItem.Text = "ana yemekler";
             this.anaYemeklerToolStripMenuItem.Click += new System.EventHandler(this.anaYemeklerToolStripMenuItem_Click);
             // 
@@ -100,13 +100,14 @@
             // sütlüTatlılarToolStripMenuItem
             // 
             this.sütlüTatlılarToolStripMenuItem.Name = "sütlüTatlılarToolStripMenuItem";
-            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
+            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sütlüTatlılarToolStripMenuItem.Text = "sütlü tatlılar ";
+            this.sütlüTatlılarToolStripMenuItem.Click += new System.EventHandler(this.sütlüTatlılarToolStripMenuItem_Click);
             // 
             // şerbetliTatlılarToolStripMenuItem
             // 
             this.şerbetliTatlılarToolStripMenuItem.Name = "şerbetliTatlılarToolStripMenuItem";
-            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
+            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.şerbetliTatlılarToolStripMenuItem.Text = "şerbetli tatlılar";
             // 
             // içeceklerToolStripMenuItem
