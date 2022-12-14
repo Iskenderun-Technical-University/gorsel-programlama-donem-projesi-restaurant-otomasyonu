@@ -172,7 +172,7 @@ namespace RestoranOtomasyonu
         {
             int g; //alınacak ara sıcak sayısı için g değeri tanımladık 
 
-            g = Convert.ToInt32(textBox4.Text);//g integer değer text ise string değer olduğu için dönüşüm yaptık
+            g = Convert.ToInt32(textBox6.Text);//g integer değer text ise string değer olduğu için dönüşüm yaptık
             g = g + 1;
             textBox6.Text = Convert.ToString(g);
             if (Convert.ToInt32(textBox6.Text) > 0)//eğer textbox 0 dan büyükse buton 11 yi aktifleştir.

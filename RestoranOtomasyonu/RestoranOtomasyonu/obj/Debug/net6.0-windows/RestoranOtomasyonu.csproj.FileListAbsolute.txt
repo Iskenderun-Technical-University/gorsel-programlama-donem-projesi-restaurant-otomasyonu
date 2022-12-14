@@ -392,3 +392,29 @@ C:\Users\bilcopy\Desktop\son proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Deb
 C:\Users\bilcopy\Desktop\son proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.pdb
 C:\Users\bilcopy\Desktop\son proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.genruntimeconfig.cache
 C:\Users\bilcopy\Desktop\son proje\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\ref\RestoranOtomasyonu.dll
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.exe
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.deps.json
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.runtimeconfig.json
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.dll
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.pdb
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.AnaYemekler.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.AraSicaklar.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.corbalar.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.Form1.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.Properties.Resources.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.FormLabel.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.SicakIcecekler.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.SogukIcecekler.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.ssutluTatlilar.resources
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.csproj.GenerateResource.cache
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.AssemblyInfoInputs.cache
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.AssemblyInfo.cs
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.dll
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\refint\RestoranOtomasyonu.dll
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.pdb
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.genruntimeconfig.cache
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\ref\RestoranOtomasyonu.dll
+C:\Users\ozlem\Desktop\ooooooo\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.siparis.resources

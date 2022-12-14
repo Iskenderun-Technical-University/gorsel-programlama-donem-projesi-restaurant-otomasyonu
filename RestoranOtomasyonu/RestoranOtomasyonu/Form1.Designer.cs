@@ -100,14 +100,14 @@
             // sütlüTatlılarToolStripMenuItem
             // 
             this.sütlüTatlılarToolStripMenuItem.Name = "sütlüTatlılarToolStripMenuItem";
-            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
+            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sütlüTatlılarToolStripMenuItem.Text = "sütlü tatlılar ";
             this.sütlüTatlılarToolStripMenuItem.Click += new System.EventHandler(this.sütlüTatlılarToolStripMenuItem_Click);
             // 
             // şerbetliTatlılarToolStripMenuItem
             // 
             this.şerbetliTatlılarToolStripMenuItem.Name = "şerbetliTatlılarToolStripMenuItem";
-            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
+            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.şerbetliTatlılarToolStripMenuItem.Text = "şerbetli tatlılar";
             this.şerbetliTatlılarToolStripMenuItem.Click += new System.EventHandler(this.şerbetliTatlılarToolStripMenuItem_Click);
             // 
@@ -123,14 +123,14 @@
             // soğukİçeceklerToolStripMenuItem
             // 
             this.soğukİçeceklerToolStripMenuItem.Name = "soğukİçeceklerToolStripMenuItem";
-            this.soğukİçeceklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.soğukİçeceklerToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.soğukİçeceklerToolStripMenuItem.Text = "soğuk içecekler";
             this.soğukİçeceklerToolStripMenuItem.Click += new System.EventHandler(this.soğukİçeceklerToolStripMenuItem_Click);
             // 
             // sıcakİçeceklerToolStripMenuItem
             // 
             this.sıcakİçeceklerToolStripMenuItem.Name = "sıcakİçeceklerToolStripMenuItem";
-            this.sıcakİçeceklerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sıcakİçeceklerToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.sıcakİçeceklerToolStripMenuItem.Text = "sıcak içecekler";
             this.sıcakİçeceklerToolStripMenuItem.Click += new System.EventHandler(this.sıcakİçeceklerToolStripMenuItem_Click);
             // 
@@ -139,6 +139,7 @@
             this.siparişlerToolStripMenuItem.Name = "siparişlerToolStripMenuItem";
             this.siparişlerToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.siparişlerToolStripMenuItem.Text = "siparişler";
+            this.siparişlerToolStripMenuItem.Click += new System.EventHandler(this.siparişlerToolStripMenuItem_Click);
             // 
             // Form1
             // 

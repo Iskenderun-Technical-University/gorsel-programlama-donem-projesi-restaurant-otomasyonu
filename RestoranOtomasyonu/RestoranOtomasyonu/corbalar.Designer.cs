@@ -437,18 +437,19 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(827, 537);
+            this.button13.Location = new System.Drawing.Point(671, 534);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(107, 34);
+            this.button13.Size = new System.Drawing.Size(247, 34);
             this.button13.TabIndex = 6;
             this.button13.Text = "sepete ekle ";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // corbalar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(941, 568);
+            this.ClientSize = new System.Drawing.Size(941, 596);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel4);

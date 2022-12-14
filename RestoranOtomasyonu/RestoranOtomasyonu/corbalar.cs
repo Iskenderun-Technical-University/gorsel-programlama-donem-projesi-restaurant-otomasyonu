@@ -178,7 +178,7 @@ namespace RestoranOtomasyonu
         {
             int f; //alınacak çorba sayısı için f değeri tanımladık 
 
-            f = Convert.ToInt32(textBox4.Text);//f integer değer text ise string değer olduğu için dönüşüm yaptık
+            f = Convert.ToInt32(textBox6.Text);//f integer değer text ise string değer olduğu için dönüşüm yaptık
             f = f + 1;
             textBox6.Text = Convert.ToString(f);
             if (Convert.ToInt32(textBox6.Text) > 0)//eğer textbox 0 dan büyükse buton 11 yi aktifleştir.
@@ -201,6 +201,52 @@ namespace RestoranOtomasyonu
                 button11.Enabled = false;
             }
 
+        }
+
+
+
+
+        public static int gidentoplam = 0;
+        private void button13_Click(object sender, EventArgs e)
+        {
+            // fiyat listesi belirlendi 
+            int elma, mercimek, mantar, domates, bakla, ceviz;
+            elma = 30;
+            mercimek = 40;
+            mantar = 80;
+            domates = 35;
+            bakla = 48;
+            ceviz = 65;
+            if (textBox1.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox1.Text) * elma;//Eğer sepete bir ürün eklenirse o ürünün ismini ve fiyatını siparişler kısmına gönderiyoruz
+
+            }
+            if (textBox2.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox2.Text) * mercimek;
+
+            }
+            if (textBox3.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox3.Text) * mantar;
+
+            }
+            if (textBox4.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox4.Text) * domates;
+
+            }
+            if (textBox5.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox5.Text) * bakla;
+
+            }
+            if (textBox6.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox6.Text) * ceviz;
+
+            }
         }
     }
 }
