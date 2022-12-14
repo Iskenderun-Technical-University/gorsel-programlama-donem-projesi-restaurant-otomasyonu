@@ -57,5 +57,11 @@ namespace RestoranOtomasyonu
             SicakIcecekler sicakIcecekler = new SicakIcecekler();   
             sicakIcecekler.Show();
         }
+
+        private void soğukİçeceklerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SogukIcecekler soogukIcecekler = new SogukIcecekler();  
+            soogukIcecekler.Show();
+        }
     }
 }
