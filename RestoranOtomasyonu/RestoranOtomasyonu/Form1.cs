@@ -45,5 +45,11 @@ namespace RestoranOtomasyonu
             ssutluTatlilar ssutluTatlilar = new ssutluTatlilar();
             ssutluTatlilar.Show();
         }
+
+        private void şerbetliTatlılarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+         FormLabel formLabel = new FormLabel();
+            formLabel.Show();
+        }
     }
 }

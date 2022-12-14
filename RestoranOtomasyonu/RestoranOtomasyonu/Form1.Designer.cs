@@ -109,6 +109,7 @@
             this.şerbetliTatlılarToolStripMenuItem.Name = "şerbetliTatlılarToolStripMenuItem";
             this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.şerbetliTatlılarToolStripMenuItem.Text = "şerbetli tatlılar";
+            this.şerbetliTatlılarToolStripMenuItem.Click += new System.EventHandler(this.şerbetliTatlılarToolStripMenuItem_Click);
             // 
             // içeceklerToolStripMenuItem
             // 

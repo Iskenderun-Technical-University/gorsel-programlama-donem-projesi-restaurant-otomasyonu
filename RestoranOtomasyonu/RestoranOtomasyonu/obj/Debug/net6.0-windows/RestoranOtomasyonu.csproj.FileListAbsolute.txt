@@ -364,3 +364,4 @@ C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\
 C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.pdb
 C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.genruntimeconfig.cache
 C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\ref\RestoranOtomasyonu.dll
+C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.FormLabel.resources
