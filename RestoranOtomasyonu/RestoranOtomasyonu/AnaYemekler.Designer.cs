@@ -441,6 +441,7 @@
             this.button13.TabIndex = 9;
             this.button13.Text = "sepete ekle";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // AnaYemekler
             // 

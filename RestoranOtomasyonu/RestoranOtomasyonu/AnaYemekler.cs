@@ -190,5 +190,55 @@ namespace RestoranOtomasyonu
         {
 
         }
+
+
+
+
+
+        public static int gidentoplam = 0;
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+            int ankaratava, copsis, mantarlıRisotto, TepsiKebabı, Falafel, EksiliKofte;
+            ankaratava= 100;
+            copsis = 85;
+            mantarlıRisotto = 80;
+            TepsiKebabı= 105;
+            Falafel = 75;
+            EksiliKofte = 70;
+
+
+
+            if (textBox1.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox1.Text) * ankaratava;//Eğer sepete bir ürün eklenirse o ürünün ismini ve fiyatını siparişler kısmına gönderiyoruz
+
+            }
+            if (textBox2.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox2.Text) * copsis;
+
+            }
+            if (textBox3.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox3.Text) * mantarlıRisotto;
+
+            }
+            if (textBox4.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox4.Text) * TepsiKebabı;
+
+            }
+            if (textBox5.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox5.Text) * Falafel;
+
+            }
+            if (textBox6.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox6.Text) * EksiliKofte;
+
+            }
+        }
     }
 }

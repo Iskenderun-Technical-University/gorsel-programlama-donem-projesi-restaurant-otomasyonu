@@ -21,6 +21,7 @@ namespace RestoranOtomasyonu
         {
             textBox1.Text = Convert.ToString(corbalar.gidentoplam); // formlar arası fiyat veri iletimi yapılıyor
             textBox2.Text = Convert.ToString(AraSicaklar.gidentoplam);
+            textBox3.Text= Convert.ToString(AnaYemekler.gidentoplam);
         }
     }
 }
