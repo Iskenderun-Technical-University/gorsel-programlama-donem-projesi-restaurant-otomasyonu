@@ -23,6 +23,14 @@ namespace RestoranOtomasyonu
             textBox2.Text = Convert.ToString(AraSicaklar.gidentoplam);
             textBox3.Text= Convert.ToString(AnaYemekler.gidentoplam);
             textBox4.Text= Convert.ToString(ssutluTatlilar.gidentoplam);
+            textBox5.Text= Convert.ToString(FormLabel.gidentoplam);
+            textBox6.Text= Convert.ToString(SogukIcecekler.gidentoplam);
+            textBox7.Text= Convert.ToString(SicakIcecekler.gidentoplam);
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

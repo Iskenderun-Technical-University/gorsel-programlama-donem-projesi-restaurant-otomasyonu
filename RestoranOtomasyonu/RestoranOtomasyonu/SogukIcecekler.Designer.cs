@@ -64,6 +64,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.AyranLabel = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -432,11 +433,22 @@
             this.AyranLabel.TabIndex = 0;
             this.AyranLabel.Text = "Ayran";
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(891, 613);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(110, 29);
+            this.button13.TabIndex = 8;
+            this.button13.Text = "sepete ekle";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // SogukIcecekler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 690);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -505,5 +517,6 @@
         private Button button11;
         private Button button12;
         private Label AyranLabel;
+        private Button button13;
     }
 }

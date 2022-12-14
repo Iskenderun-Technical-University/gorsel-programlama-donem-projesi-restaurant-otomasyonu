@@ -184,5 +184,52 @@ namespace RestoranOtomasyonu
                 button11.Enabled = false;
             }
         }
+        public static int gidentoplam = 0;
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+            int TürkKahvesi,Espresso, CafeLatte, Cappucino, FiltreKahve,SıcakKahve;
+            TürkKahvesi = 30;
+            Espresso = 25;
+            CafeLatte = 15;
+            Cappucino = 20;
+            FiltreKahve= 15;
+            SıcakKahve = 12;
+            
+
+
+
+            if (textBox1.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox1.Text) *TürkKahvesi;//Eğer sepete bir ürün eklenirse o ürünün ismini ve fiyatını siparişler kısmına gönderiyoruz
+
+            }
+            if (textBox2.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox2.Text) *Espresso;
+
+            }
+            if (textBox3.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox3.Text) * CafeLatte;
+
+            }
+            if (textBox4.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox4.Text) *Cappucino;
+
+
+            }
+            if (textBox5.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox5.Text) *FiltreKahve;
+
+            }
+            if (textBox6.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox6.Text) * SıcakKahve;
+
+            }
+        }
     }
 }

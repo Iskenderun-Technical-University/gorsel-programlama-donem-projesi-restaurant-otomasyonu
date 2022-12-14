@@ -186,5 +186,51 @@ namespace RestoranOtomasyonu
                 button11.Enabled = false;
             }
         }
+        public static int gidentoplam = 0;
+        
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+            int Künefe, CevizliBaklava , AntepFıstıklıBaklava, SoğukBaklava,BurmaKadayıf, Kadayıf;
+            Künefe = 45;
+            CevizliBaklava = 55;
+            AntepFıstıklıBaklava = 90;
+            SoğukBaklava = 60;
+           BurmaKadayıf = 52;
+            Kadayıf = 58;
+
+
+
+            if (textBox1.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox1.Text) * Künefe ;//Eğer sepete bir ürün eklenirse o ürünün ismini ve fiyatını siparişler kısmına gönderiyoruz
+
+            }
+            if (textBox2.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox2.Text) *CevizliBaklava;
+
+            }
+            if (textBox3.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox3.Text) * AntepFıstıklıBaklava;
+
+            }
+            if (textBox4.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox4.Text) * SoğukBaklava;
+
+            }
+            if (textBox5.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox5.Text) * BurmaKadayıf;
+
+            }
+            if (textBox6.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox6.Text) * Kadayıf;
+
+            }
+        }
     }
 }

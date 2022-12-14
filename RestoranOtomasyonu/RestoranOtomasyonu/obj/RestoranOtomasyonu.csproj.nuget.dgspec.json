@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj": {}
+    "C:\\Users\\nalin\\Desktop\\yeto\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj": {
+    "C:\\Users\\nalin\\Desktop\\yeto\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
+        "projectUniqueName": "C:\\Users\\nalin\\Desktop\\yeto\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
         "projectName": "RestoranOtomasyonu",
-        "projectPath": "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
-        "packagesPath": "C:\\Users\\bilcopy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\obj\\",
+        "projectPath": "C:\\Users\\nalin\\Desktop\\yeto\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
+        "packagesPath": "C:\\Users\\nalin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nalin\\Desktop\\yeto\\RestoranOtomasyonu\\RestoranOtomasyonu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bilcopy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nalin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

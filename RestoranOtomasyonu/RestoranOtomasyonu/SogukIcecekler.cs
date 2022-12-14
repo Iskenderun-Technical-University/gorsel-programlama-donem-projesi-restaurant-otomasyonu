@@ -187,5 +187,51 @@ namespace RestoranOtomasyonu
                 button11.Enabled = true;
             }
         }
+        public static int gidentoplam = 0;
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+            int BuzluKahve ,Limonata ,Milkshake ,Smoothie ,Kola ,Ayran ;
+            BuzluKahve = 25;
+            Limonata= 15;
+            Milkshake = 20;
+           Smoothie = 30;
+            Kola= 12;
+            Ayran= 8;
+
+
+
+            if (textBox1.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox1.Text) * BuzluKahve;//Eğer sepete bir ürün eklenirse o ürünün ismini ve fiyatını siparişler kısmına gönderiyoruz
+
+            }
+            if (textBox2.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox2.Text) * Limonata;
+
+            }
+            if (textBox3.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox3.Text) * Milkshake;
+
+            }
+            if (textBox4.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox4.Text) *Smoothie;
+                    
+
+            }
+            if (textBox5.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox5.Text) *Kola;
+
+            }
+            if (textBox6.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox6.Text) *Ayran;
+
+            }
+        }
     }
 }
