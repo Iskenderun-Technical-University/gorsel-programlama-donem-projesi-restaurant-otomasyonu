@@ -32,5 +32,21 @@ namespace RestoranOtomasyonu
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int s1, s2, s3, s4, s5, s6, s7;
+            s1 = Convert.ToInt32(textBox1.Text);
+            s2 = Convert.ToInt32(textBox2.Text);    
+            s3 = Convert.ToInt32(textBox3.Text);
+            s4 = Convert.ToInt32(textBox4.Text);    
+            s5 = Convert.ToInt32(textBox5.Text);
+            s6 = Convert.ToInt32(textBox6.Text);
+            s7 = Convert.ToInt32(textBox7.Text);
+
+            int toplam = 0;
+            toplam = s1 + s2 + s3 + s4 + s5 + s7 + s6;
+            textBox8.Text = Convert.ToString(toplam);
+        }
     }
 }
