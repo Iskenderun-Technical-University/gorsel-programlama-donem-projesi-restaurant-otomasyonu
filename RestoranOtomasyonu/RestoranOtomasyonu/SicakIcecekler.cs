@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RestoranOtomasyonu
 {
-    public partial class FormLabel : Form
+    public partial class SicakIcecekler : Form
     {
-        public FormLabel()
+        public SicakIcecekler()
         {
             InitializeComponent();
         }
@@ -47,7 +47,7 @@ namespace RestoranOtomasyonu
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int b; //alınacak şerbetli tatli  için b değeri tanımladık 
+            int b; //alınacak sıcak içecek  için b değeri tanımladık 
 
             b = Convert.ToInt32(textBox2.Text);//b integer değer text ise string değer olduğu için dönüşüm yaptık
 
@@ -62,7 +62,7 @@ namespace RestoranOtomasyonu
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int b; //alınacak şerbetli tatli için b değeri tanımladık 
+            int b; //alınacak sıcak içecek için b değeri tanımladık 
 
             b = Convert.ToInt32(textBox2.Text);//b integer değer text ise string değer olduğu için dönüşüm yaptık
             b = b - 1;
@@ -76,7 +76,7 @@ namespace RestoranOtomasyonu
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int c; //alınacak şerbetli tatlı sayısı için c değeri tanımladık 
+            int c; //alınacak sıcak içecek sayısı için c değeri tanımladık 
 
             c = Convert.ToInt32(textBox3.Text);//c integer değer text ise string değer olduğu için dönüşüm yaptık
             c = c + 1;
@@ -90,7 +90,7 @@ namespace RestoranOtomasyonu
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int c; //alınacak şerbetli tatli sayısı için c değeri tanımladık 
+            int c; //alınacak sıcak içecek sayısı için c değeri tanımladık 
 
             c = Convert.ToInt32(textBox3.Text);//c integer değer text ise string değer olduğu için dönüşüm yaptık
             c = c - 1;
@@ -104,7 +104,7 @@ namespace RestoranOtomasyonu
 
         private void button8_Click(object sender, EventArgs e)
         {
-            int d; //alınacak şerbetli tatlı sayısı için d değeri tanımladık 
+            int d; //alınacak sıcak içecek sayısı için d değeri tanımladık 
             d = Convert.ToInt32(textBox4.Text);//d integer değer text ise string değer olduğu için dönüşüm yaptık
             d = d + 1;
             textBox4.Text = Convert.ToString(d);
@@ -113,12 +113,11 @@ namespace RestoranOtomasyonu
             {
                 button7.Enabled = true;
             }
-
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            int d; //alınacak şerbetli tatlı sayısı için d değeri tanımladık 
+            int d; //alınacak sıcak içecek sayısı için d değeri tanımladık 
 
             d = Convert.ToInt32(textBox4.Text);//d integer değer text ise string değer olduğu için dönüşüm yaptık
             d = d - 1;
@@ -132,7 +131,7 @@ namespace RestoranOtomasyonu
 
         private void button10_Click(object sender, EventArgs e)
         {
-            int f; //alınacak şerbetli tatlı sayısı için f değeri tanımladık 
+            int f; //alınacak sıcak içecek sayısı için f değeri tanımladık 
 
             f = Convert.ToInt32(textBox5.Text);//f integer değer text ise string değer olduğu için dönüşüm yaptık
             f = f + 1;
@@ -142,12 +141,11 @@ namespace RestoranOtomasyonu
             {
                 button9.Enabled = false;
             }
-
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            int f; //alınacak serbetli tatlı sayısı için f değeri tanımladık 
+            int f; //alınacak sıcak içecek sayısı için f değeri tanımladık 
 
             f = Convert.ToInt32(textBox5.Text);//f integer değer text ise string değer olduğu için dönüşüm yaptık
             f = f - 1;
@@ -161,7 +159,7 @@ namespace RestoranOtomasyonu
 
         private void button12_Click(object sender, EventArgs e)
         {
-            int g; //alınacak şerbetli tatlı sayısı için g değeri tanımladık 
+            int g; //alınacak sıcak içecek sayısı için g değeri tanımladık 
 
             g = Convert.ToInt32(textBox6.Text);//g integer değer text ise string değer olduğu için dönüşüm yaptık
             g = g + 1;
@@ -175,9 +173,9 @@ namespace RestoranOtomasyonu
 
         private void button11_Click(object sender, EventArgs e)
         {
-            int g; //alınacak serbetlii tatlı sayısı için g değeri tanımladık 
+            int g; //alınacak sıcak içecek sayısı için g değeri tanımladık 
 
-            g = Convert.ToInt32(textBox6.Text);//aüg integer değer text ise string değer olduğu için dönüşüm yaptık
+            g = Convert.ToInt32(textBox6.Text);//ag integer değer text ise string değer olduğu için dönüşüm yaptık
             g = g - 1;
             textBox6.Text = Convert.ToString(g);
             if (textBox6.Text == Convert.ToString(0))//eğer textbox 0 ise buton 11 yi kapat.

@@ -319,7 +319,6 @@ C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\ne
 C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.pdb
 C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.genruntimeconfig.cache
 C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\ref\RestoranOtomasyonu.dll
-C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.SutluTatlilar.resources
 C:\Users\ozlem\Desktop\lllll\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.exe
 C:\Users\ozlem\Desktop\lllll\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.deps.json
 C:\Users\ozlem\Desktop\lllll\RestoranOtomasyonu\RestoranOtomasyonu\bin\Debug\net6.0-windows\RestoranOtomasyonu.runtimeconfig.json
@@ -365,3 +364,6 @@ C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\
 C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.genruntimeconfig.cache
 C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\ref\RestoranOtomasyonu.dll
 C:\Users\bilcopy\Desktop\LLLLLL\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.FormLabel.resources
+C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.FormLabel.resources
+C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.SicakIcecekler.resources
+C:\Users\nalin\Desktop\github\RestoranOtomasyonu\RestoranOtomasyonu\obj\Debug\net6.0-windows\RestoranOtomasyonu.ssutluTatlilar.resources

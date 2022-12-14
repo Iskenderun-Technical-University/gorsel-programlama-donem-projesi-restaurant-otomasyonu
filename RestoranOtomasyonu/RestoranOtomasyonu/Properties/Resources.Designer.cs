@@ -103,6 +103,26 @@ namespace RestoranOtomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap cafe_latte {
+            get {
+                object obj = ResourceManager.GetObject("cafe latte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap cappucino {
+            get {
+                object obj = ResourceManager.GetObject("cappucino", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap ceviz_çorbası {
             get {
                 object obj = ResourceManager.GetObject("ceviz çorbası", resourceCulture);
@@ -163,6 +183,16 @@ namespace RestoranOtomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap espresso {
+            get {
+                object obj = ResourceManager.GetObject("espresso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap etimek_tatlısı {
             get {
                 object obj = ResourceManager.GetObject("etimek tatlısı", resourceCulture);
@@ -183,9 +213,29 @@ namespace RestoranOtomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap filtrekahve {
+            get {
+                object obj = ResourceManager.GetObject("filtrekahve", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap fırında_sütlaç {
             get {
                 object obj = ResourceManager.GetObject("fırında sütlaç", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap indir {
+            get {
+                object obj = ResourceManager.GetObject("indir", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +366,16 @@ namespace RestoranOtomasyonu.Properties {
         internal static System.Drawing.Bitmap pastırmalı_humus {
             get {
                 object obj = ResourceManager.GetObject("pastırmalı humus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap sıcak_çikolata {
+            get {
+                object obj = ResourceManager.GetObject("sıcak çikolata", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

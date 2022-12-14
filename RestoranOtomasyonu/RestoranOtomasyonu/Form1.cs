@@ -51,5 +51,11 @@ namespace RestoranOtomasyonu
          FormLabel formLabel = new FormLabel();
             formLabel.Show();
         }
+
+        private void sıcakİçeceklerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SicakIcecekler sicakIcecekler = new SicakIcecekler();   
+            sicakIcecekler.Show();
+        }
     }
 }

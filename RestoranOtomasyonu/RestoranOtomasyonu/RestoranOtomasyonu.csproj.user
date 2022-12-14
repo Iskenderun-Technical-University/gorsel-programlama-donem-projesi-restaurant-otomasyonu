@@ -16,6 +16,9 @@
     <Compile Update="SerbetliTatlılar.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SicakIcecekler.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ssutluTatlilar.cs">
       <SubType>Form</SubType>
     </Compile>
