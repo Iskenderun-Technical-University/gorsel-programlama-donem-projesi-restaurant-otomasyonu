@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ozlem\\.nuget\\packages\\": {}
+    "C:\\Users\\bilcopy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozlem\\Desktop\\ooooooo\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
+      "projectUniqueName": "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
       "projectName": "RestoranOtomasyonu",
-      "projectPath": "C:\\Users\\ozlem\\Desktop\\ooooooo\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
-      "packagesPath": "C:\\Users\\ozlem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozlem\\Desktop\\ooooooo\\RestoranOtomasyonu\\RestoranOtomasyonu\\obj\\",
+      "projectPath": "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
+      "packagesPath": "C:\\Users\\bilcopy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bilcopy\\Desktop\\ppppp\\RestoranOtomasyonu\\RestoranOtomasyonu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ozlem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bilcopy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

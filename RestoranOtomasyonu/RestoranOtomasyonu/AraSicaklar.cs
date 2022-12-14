@@ -196,5 +196,55 @@ namespace RestoranOtomasyonu
             }
 
         }
+
+
+
+
+
+
+        public static int gidentoplam = 0;
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+
+            int mantarDolma, humus, mucver, kroket, borek, dolma;
+            mantarDolma = 35;
+            humus = 30;
+            mucver = 35;
+            kroket = 25;
+            borek = 35;
+            dolma = 30;
+
+            if (textBox1.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox1.Text) * mantarDolma;//Eğer sepete bir ürün eklenirse o ürünün ismini ve fiyatını siparişler kısmına gönderiyoruz
+
+            }
+            if (textBox2.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox2.Text) * humus;
+
+            }
+            if (textBox3.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox3.Text) * mucver;
+
+            }
+            if (textBox4.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox4.Text) * kroket;
+
+            }
+            if (textBox5.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox5.Text) * borek;
+
+            }
+            if (textBox6.Text != Convert.ToString(0))
+            {
+                gidentoplam = gidentoplam + Convert.ToInt32(textBox6.Text) * dolma;
+
+            }
+        }
     }
 }

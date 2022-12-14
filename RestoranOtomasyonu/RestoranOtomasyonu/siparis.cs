@@ -20,6 +20,7 @@ namespace RestoranOtomasyonu
         private void siparis_Load(object sender, EventArgs e)
         {
             textBox1.Text = Convert.ToString(corbalar.gidentoplam); // formlar arası fiyat veri iletimi yapılıyor
+            textBox2.Text = Convert.ToString(AraSicaklar.gidentoplam);
         }
     }
 }
