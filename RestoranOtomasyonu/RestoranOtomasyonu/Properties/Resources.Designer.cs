@@ -433,6 +433,16 @@ namespace RestoranOtomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_260922 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-260922", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap sıcak_çikolata {
             get {
                 object obj = ResourceManager.GetObject("sıcak çikolata", resourceCulture);

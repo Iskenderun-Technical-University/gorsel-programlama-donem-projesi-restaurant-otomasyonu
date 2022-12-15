@@ -100,14 +100,14 @@
             // sütlüTatlılarToolStripMenuItem
             // 
             this.sütlüTatlılarToolStripMenuItem.Name = "sütlüTatlılarToolStripMenuItem";
-            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sütlüTatlılarToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.sütlüTatlılarToolStripMenuItem.Text = "sütlü tatlılar ";
             this.sütlüTatlılarToolStripMenuItem.Click += new System.EventHandler(this.sütlüTatlılarToolStripMenuItem_Click);
             // 
             // şerbetliTatlılarToolStripMenuItem
             // 
             this.şerbetliTatlılarToolStripMenuItem.Name = "şerbetliTatlılarToolStripMenuItem";
-            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.şerbetliTatlılarToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.şerbetliTatlılarToolStripMenuItem.Text = "şerbetli tatlılar";
             this.şerbetliTatlılarToolStripMenuItem.Click += new System.EventHandler(this.şerbetliTatlılarToolStripMenuItem_Click);
             // 
@@ -145,6 +145,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::RestoranOtomasyonu.Properties.Resources.pexels_pixabay_260922;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
