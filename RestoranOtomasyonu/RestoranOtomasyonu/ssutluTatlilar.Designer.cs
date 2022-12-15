@@ -29,48 +29,48 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tiramisuLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.TrileceLabel = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.SultanSarmasiLabel = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.FirindaSutlacLabel = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.etimekLabel = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.MagnoliaLabel = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -98,6 +98,16 @@
             this.panel1.Size = new System.Drawing.Size(269, 237);
             this.panel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(96, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "35 TL";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(96, 206);
@@ -112,7 +122,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
             this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
+            this.button2.Text = "azalt";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -122,7 +132,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "arttır";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -158,6 +168,15 @@
             this.panel2.Size = new System.Drawing.Size(269, 237);
             this.panel2.TabIndex = 1;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(79, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 20);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "30 TL";
+            // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(96, 206);
@@ -172,7 +191,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 29);
             this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
+            this.button3.Text = "azalt";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -182,7 +201,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 29);
             this.button4.TabIndex = 2;
-            this.button4.Text = "button4";
+            this.button4.Text = "arttır";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -218,6 +237,15 @@
             this.panel3.Size = new System.Drawing.Size(269, 237);
             this.panel3.TabIndex = 2;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(137, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "35 TL";
+            // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(96, 206);
@@ -232,7 +260,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 29);
             this.button5.TabIndex = 3;
-            this.button5.Text = "button5";
+            this.button5.Text = "azalt";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -242,7 +270,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(94, 29);
             this.button6.TabIndex = 2;
-            this.button6.Text = "button6";
+            this.button6.Text = "arttır";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -278,6 +306,15 @@
             this.panel4.Size = new System.Drawing.Size(269, 237);
             this.panel4.TabIndex = 3;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(124, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "25 TL";
+            // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(96, 206);
@@ -292,7 +329,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(94, 29);
             this.button7.TabIndex = 3;
-            this.button7.Text = "button7";
+            this.button7.Text = "azalt";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -302,7 +339,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(94, 29);
             this.button8.TabIndex = 2;
-            this.button8.Text = "button8";
+            this.button8.Text = "arttır";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -338,6 +375,15 @@
             this.panel5.Size = new System.Drawing.Size(269, 237);
             this.panel5.TabIndex = 4;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(79, 10);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 20);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "35 TL";
+            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(96, 206);
@@ -352,7 +398,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(94, 29);
             this.button9.TabIndex = 3;
-            this.button9.Text = "button9";
+            this.button9.Text = "azalt";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -362,7 +408,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(94, 29);
             this.button10.TabIndex = 2;
-            this.button10.Text = "button10";
+            this.button10.Text = "arttır";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -398,6 +444,15 @@
             this.panel6.Size = new System.Drawing.Size(269, 237);
             this.panel6.TabIndex = 5;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(96, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 20);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "30 TL";
+            // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(96, 206);
@@ -412,7 +467,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(94, 29);
             this.button11.TabIndex = 3;
-            this.button11.Text = "button11";
+            this.button11.Text = "button11azalt";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -422,7 +477,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(94, 29);
             this.button12.TabIndex = 2;
-            this.button12.Text = "button12";
+            this.button12.Text = "arttır";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
@@ -454,61 +509,6 @@
             this.button13.Text = "sepete ekle";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(96, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "35 TL";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 20);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "30 TL";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(137, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 20);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "35 TL";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(124, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 20);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "25 TL";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(79, 10);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 20);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "35 TL";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(96, 10);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 20);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "30 TL";
             // 
             // ssutluTatlilar
             // 
