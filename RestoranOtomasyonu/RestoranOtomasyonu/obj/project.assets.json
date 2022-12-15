@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bilcopy\\.nuget\\packages\\": {}
+    "C:\\Users\\nalin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bilcopy\\Desktop\\özlem alklkahın belsı\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
+      "projectUniqueName": "C:\\Users\\nalin\\Desktop\\proje\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
       "projectName": "RestoranOtomasyonu",
-      "projectPath": "C:\\Users\\bilcopy\\Desktop\\özlem alklkahın belsı\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
-      "packagesPath": "C:\\Users\\bilcopy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bilcopy\\Desktop\\özlem alklkahın belsı\\RestoranOtomasyonu\\RestoranOtomasyonu\\obj\\",
+      "projectPath": "C:\\Users\\nalin\\Desktop\\proje\\RestoranOtomasyonu\\RestoranOtomasyonu\\RestoranOtomasyonu.csproj",
+      "packagesPath": "C:\\Users\\nalin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nalin\\Desktop\\proje\\RestoranOtomasyonu\\RestoranOtomasyonu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bilcopy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nalin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
