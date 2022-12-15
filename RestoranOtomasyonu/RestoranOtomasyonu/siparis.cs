@@ -48,5 +48,10 @@ namespace RestoranOtomasyonu
             toplam = s1 + s2 + s3 + s4 + s5 + s7 + s6;
             textBox8.Text = Convert.ToString(toplam);
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

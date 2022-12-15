@@ -194,7 +194,7 @@ namespace RestoranOtomasyonu
 
 
         public static int gidentoplam = 0;
-        private void button13_Click(object sender, EventArgs e)
+        private void button13_Click(object sender, EventArgs e) // sepete ekleme butonu
         {
             int tiramisu, trileçe, sultanSarması, firindaSutlac, Etimek, magnolia;
             tiramisu= 35;

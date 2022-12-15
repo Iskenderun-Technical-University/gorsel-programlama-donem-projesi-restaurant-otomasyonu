@@ -44,7 +44,7 @@ namespace RestoranOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a; //alınacak çorba sayısı için a değeri tanımladık 
+            int a; //alınacak çorba sayısı için a değeri tanımladık arttır 
            
             a=Convert.ToInt32(textBox1.Text);//a integer değer text ise string değer olduğu için dönüşüm yaptık
             a = a + 1;
