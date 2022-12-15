@@ -65,6 +65,12 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -81,6 +87,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.KiymaliMantarDolmasiLabel);
             this.panel1.Controls.Add(this.textBox1);
@@ -140,6 +147,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.PastirmaliHumusLabel);
             this.panel2.Controls.Add(this.textBox2);
@@ -199,6 +207,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.MucverLabel);
             this.panel3.Controls.Add(this.textBox3);
@@ -259,6 +268,7 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Controls.Add(this.KasarliPatKroketLabel);
             this.panel4.Controls.Add(this.textBox4);
@@ -318,6 +328,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.Controls.Add(this.PacangaBoregiLabel);
             this.panel5.Controls.Add(this.textBox5);
@@ -377,6 +388,7 @@
             // 
             // panel6
             // 
+            this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.pictureBox6);
             this.panel6.Controls.Add(this.KuruDolmaLabel);
             this.panel6.Controls.Add(this.textBox6);
@@ -443,6 +455,60 @@
             this.button13.Text = "Sepete Ekle";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(190, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "35 TL";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(145, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "30 TL";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(83, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 20);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "35 TL";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(173, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "25 TL";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(148, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 20);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "35 TL";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(117, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 20);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "30 TL";
             // 
             // AraSicaklar
             // 
@@ -520,5 +586,11 @@
         private Button button11;
         private Button button12;
         private Button button13;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
     }
 }
